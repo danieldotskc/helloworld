@@ -1,0 +1,89 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "paramLocation": {
+            "defaultValue": "australiacentral",
+            "type": "String"
+        },
+        "paramRelayName": {
+            "type": "String"
+        },
+        "paramHybridConnectionName": {
+			"defaultValue": "stakeholdermanagementintegration",
+            "type": "String"
+        }
+    },
+    "variables": { },
+    "resources": [
+        {
+            "type": "Microsoft.Relay/namespaces",
+            "apiVersion": "2021-11-01",
+            "name": "[parameters('paramRelayName')]",
+            "location": "[parameters('paramLocation')]",
+            "sku": {
+                "name": "Standard",
+                "tier": "Standard"
+            },
+            "properties": {
+                "privateEndpointConnections": []
+            }
+        },
+		{
+            "type": "Microsoft.Relay/namespaces/authorizationrules",
+            "apiVersion": "2021-11-01",
+            "name": "[concat(parameters('paramRelayName'), '/RelayListenerSASPolicy')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Relay/namespaces', parameters('paramRelayName'))]"
+            ],
+            "properties": {
+                "rights": [
+                    "Listen"
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Relay/namespaces/authorizationrules",
+            "apiVersion": "2021-11-01",
+            "name": "[concat(parameters('paramRelayName'), '/RootManageSharedAccessKey')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Relay/namespaces', parameters('paramRelayName'))]"
+            ],
+            "properties": {
+                "rights": [
+                    "Listen",
+                    "Manage",
+                    "Send"
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Relay/namespaces/hybridconnections",
+            "apiVersion": "2021-11-01",
+            "name": "[concat(parameters('paramRelayName'), '/', parameters('paramHybridConnectionName'))]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Relay/namespaces', parameters('paramRelayName'))]"
+            ],
+            "properties": {
+                "requiresClientAuthorization": true
+            }
+        },
+        {
+            "type": "Microsoft.Relay/namespaces/networkrulesets",
+            "apiVersion": "2021-11-01",
+            "name": "[concat(parameters('paramRelayName'), '/default')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Relay/namespaces', parameters('paramRelayName'))]"
+            ],
+            "properties": {
+                "publicNetworkAccess": "Enabled",
+                "defaultAction": "Allow",
+                "ipRules": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "paramEnvironment": {
+            "type": "String"
+        },
+        "paramTenantId": {
+            "type": "String"
+        },
+        "paramLocation": {
+            "defaultValue": "australiacentral",
+            "type": "String"
+        },
+        "paramKeyVaultName": {
+            "type": "String"
+        }
+    },
+    "functions": [],
+    "variables": {
+        "varTenantId": "[parameters('paramTenantId')]",
+        "varTargetEnv": "[parameters('paramEnvironment')]",
+        "varKeyVaultName": "[parameters('paramKeyVaultName')]"
+    },
+    "resources": [
+        {
+            "name": "[variables('varKeyVaultName')]",
+            "type": "Microsoft.KeyVault/vaults",
+            "apiVersion": "2022-11-01",
+            "location": "[parameters('paramLocation')]",
+            "properties": {
+                "sku": {
+                    "family": "A",
+                    "name": "Standard"
+                },
+                "tenantId": "[variables('varTenantId')]",
+                "accessPolicies": [],
+                "enabledForDeployment": false,
+                "enabledForDiskEncryption": false,
+                "enabledForTemplateDeployment": false,
+                "enableSoftDelete": true,
+                "softDeleteRetentionInDays": 90,
+                "enableRbacAuthorization": true,
+                "enablePurgeProtection": true,
+                "vaultUri": "[concat('https://', variables('varKeyVaultName'), '.vault.azure.net/')]",
+                "provisioningState": "Succeeded",
+                "publicNetworkAccess": "Enabled"
+            }
+        },
+        {
+            "type": "Microsoft.KeyVault/vaults/secrets",
+            "apiVersion": "2022-11-01",
+            "name": "[concat(variables('varKeyVaultName'), '/aue-hpsp-', variables('varTargetEnv'),'-appreg-funcapp-clientid')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.KeyVault/vaults', variables('varKeyVaultName'))]"
+            ],
+            "properties": {
+                "value": "[concat(variables('varKeyVaultName'), '/aue-hpsp-', variables('varTargetEnv'),'-appreg-funcapp-clientid')]",
+                "attributes": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "type": "Microsoft.KeyVault/vaults/secrets",
+            "apiVersion": "2022-11-01",
+            "name": "[concat(variables('varKeyVaultName'), '/aue-hpsp-', variables('varTargetEnv'),'-appreg-funcapp-clientsecret')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.KeyVault/vaults', variables('varKeyVaultName'))]"
+            ],
+            "properties": {
+                "value": "[concat(variables('varKeyVaultName'), '/aue-hpsp-', variables('varTargetEnv'),'-appreg-funcapp-clientsecret')]",
+                "attributes": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "outputs": {}
+}

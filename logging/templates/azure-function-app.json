@@ -1,0 +1,227 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "paramSubscriptionId": {
+            "type": "String"
+        },
+        "paramResourceGroup": {
+            "type": "String"
+        },
+        "paramFunctionAppName": {
+            "type": "String"
+        },
+        "paramLocation": {
+            "defaultValue": "australiacentral",
+            "type": "String"
+        },
+        "paramAppInsightsName": {
+            "type": "String"
+        },
+        "paramAppServicePlanName": {
+            "type": "String"
+        },
+        "paramUserAssignManagedIdentityName": {
+            "type": "String"
+        }
+    },
+    "variables": {
+        "varAppServicePlanExternalId": "[concat('/subscriptions/', parameters('paramSubscriptionId'), '/resourceGroups/', parameters('paramResourceGroup'), '/providers/Microsoft.Web/serverfarms/', parameters('paramAppServicePlanName'))]",
+        "varAppInsightsId": "[concat('/subscriptions/', parameters('paramSubscriptionId'), '/resourceGroups/', parameters('paramResourceGroup'), '/providers/Microsoft.Insights/components/', parameters('paramAppInsightsName'))]",
+        "varUserAssignedManagedIdentity": "[concat('/subscriptions/', parameters('paramSubscriptionId'), '/resourcegroups/', parameters('paramResourceGroup'), '/providers/Microsoft.ManagedIdentity/userAssignedIdentities/', parameters('paramUserAssignManagedIdentityName'))]"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2023-01-01",
+            "name": "[parameters('paramFunctionAppName')]",
+            "location": "[parameters('paramLocation')]",
+            "tags": {
+                "hidden-link: /app-insights-resource-id": "[variables('varAppInsightsId')]"
+            },
+            "kind": "functionapp",
+            "identity": {
+                "type": "UserAssigned",
+                "userAssignedIdentities": {
+                    "[variables('varUserAssignedManagedIdentity')]": {}
+                }
+            },
+            "properties": {
+                "enabled": true,
+                "hostNameSslStates": [
+                    {
+                        "name": "[concat(parameters('paramFunctionAppName'), '.azurewebsites.net')]",
+                        "sslState": "Disabled",
+                        "hostType": "Standard"
+                    },
+                    {
+                        "name": "[concat(parameters('paramFunctionAppName'), '.scm.azurewebsites.net')]",
+                        "sslState": "Disabled",
+                        "hostType": "Repository"
+                    }
+                ],
+                "serverFarmId": "[variables('varAppServicePlanExternalId')]",
+                "reserved": false,
+                "isXenon": false,
+                "hyperV": false,
+                "vnetRouteAllEnabled": false,
+                "vnetImagePullEnabled": false,
+                "vnetContentShareEnabled": false,
+                "siteConfig": {
+                    "numberOfWorkers": 1,
+                    "acrUseManagedIdentityCreds": false,
+                    "alwaysOn": true,
+                    "http20Enabled": false,
+                    "functionAppScaleLimit": 0,
+                    "minimumElasticInstanceCount": 0
+                },
+                "scmSiteAlsoStopped": false,
+                "clientAffinityEnabled": false,
+                "clientCertEnabled": false,
+                "clientCertMode": "Required",
+                "hostNamesDisabled": false,
+                "customDomainVerificationId": "7DF066E60D52D8D408F42D8F1054A38353742E9F5681E694BC41B69B8517E273",
+                "containerSize": 1536,
+                "dailyMemoryTimeQuota": 0,
+                "httpsOnly": true,
+                "redundancyMode": "None",
+                "publicNetworkAccess": "Enabled",
+                "storageAccountRequired": false,
+                "keyVaultReferenceIdentity": "SystemAssigned"
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+            "apiVersion": "2023-01-01",
+            "name": "[concat(parameters('paramFunctionAppName'), '/ftp')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('paramFunctionAppName'))]"
+            ],
+            "tags": {
+                "hidden-link: /app-insights-resource-id": "[variables('varAppInsightsId')]"
+            },
+            "properties": {
+                "allow": true
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+            "apiVersion": "2023-01-01",
+            "name": "[concat(parameters('paramFunctionAppName'), '/scm')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('paramFunctionAppName'))]"
+            ],
+            "tags": {
+                "hidden-link: /app-insights-resource-id": "[variables('varAppInsightsId')]"
+            },
+            "properties": {
+                "allow": true
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/config",
+            "apiVersion": "2023-01-01",
+            "name": "[concat(parameters('paramFunctionAppName'), '/web')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('paramFunctionAppName'))]"
+            ],
+            "tags": {
+                "hidden-link: /app-insights-resource-id": "[variables('varAppInsightsId')]"
+            },
+            "properties": {
+                "numberOfWorkers": 1,
+                "defaultDocuments": [
+                    "Default.htm",
+                    "Default.html",
+                    "Default.asp",
+                    "index.htm",
+                    "index.html",
+                    "iisstart.htm",
+                    "default.aspx",
+                    "index.php"
+                ],
+                "netFrameworkVersion": "v6.0",
+                "requestTracingEnabled": false,
+                "remoteDebuggingEnabled": false,
+                "remoteDebuggingVersion": "VS2019",
+                "httpLoggingEnabled": false,
+                "acrUseManagedIdentityCreds": false,
+                "logsDirectorySizeLimit": 35,
+                "detailedErrorLoggingEnabled": false,
+                "publishingUsername": "$aue-hpsp-integration-function-app",
+                "scmType": "None",
+                "use32BitWorkerProcess": true,
+                "webSocketsEnabled": false,
+                "alwaysOn": true,
+                "managedPipelineMode": "Integrated",
+                "virtualApplications": [
+                    {
+                        "virtualPath": "/",
+                        "physicalPath": "site\\wwwroot",
+                        "preloadEnabled": true
+                    }
+                ],
+                "loadBalancing": "LeastRequests",
+                "experiments": {
+                    "rampUpRules": []
+                },
+                "autoHealEnabled": false,
+                "vnetRouteAllEnabled": false,
+                "vnetPrivatePortsCount": 0,
+                "publicNetworkAccess": "Enabled",
+                "cors": {
+                    "allowedOrigins": [
+                        "https://portal.azure.com"
+                    ],
+                    "supportCredentials": false
+                },
+                "localMySqlEnabled": false,
+                "xManagedServiceIdentityId": 18568,
+                "ipSecurityRestrictions": [
+                    {
+                        "ipAddress": "Any",
+                        "action": "Allow",
+                        "priority": 2147483647,
+                        "name": "Allow all",
+                        "description": "Allow all access"
+                    }
+                ],
+                "scmIpSecurityRestrictions": [
+                    {
+                        "ipAddress": "Any",
+                        "action": "Allow",
+                        "priority": 2147483647,
+                        "name": "Allow all",
+                        "description": "Allow all access"
+                    }
+                ],
+                "scmIpSecurityRestrictionsUseMain": false,
+                "http20Enabled": false,
+                "minTlsVersion": "1.2",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "FtpsOnly",
+                "preWarmedInstanceCount": 0,
+                "functionAppScaleLimit": 0,
+                "functionsRuntimeScaleMonitoringEnabled": false,
+                "minimumElasticInstanceCount": 0,
+                "azureStorageAccounts": {}
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/hostNameBindings",
+            "apiVersion": "2023-01-01",
+            "name": "[concat(parameters('paramFunctionAppName'), '/', parameters('paramFunctionAppName'), '.azurewebsites.net')]",
+            "location": "[parameters('paramLocation')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', parameters('paramFunctionAppName'))]"
+            ],
+            "properties": {
+                "siteName": "[parameters('paramFunctionAppName')]",
+                "hostNameType": "Verified"
+            }
+        }
+    ]
+}
