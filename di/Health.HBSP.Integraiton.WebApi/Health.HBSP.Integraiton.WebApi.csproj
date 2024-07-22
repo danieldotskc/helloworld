@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Health.HBSP.Integration.Business\Health.HBSP.Integration.Business.csproj" />
+    <ProjectReference Include="..\Health.HBSP.Integration.ServiceCore\Health.HBSP.Integration.ServiceCore.csproj" />
+    <ProjectReference Include="..\Health.HBSP.Integration.ServiceFramework\Health.HBSP.Integration.ServiceFramework.csproj" />
+  </ItemGroup>
+
+</Project>
