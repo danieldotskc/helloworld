@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health.HBSP.Integraiton.WebApi", "Health.HBSP.Integraiton.WebApi\Health.HBSP.Integraiton.WebApi.csproj", "{493C458A-A26E-41BE-A140-FA795FDA7198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Health.HBSP.Integraiton.WebApi", "Health.HBSP.Integraiton.WebApi\Health.HBSP.Integraiton.WebApi.csproj", "{493C458A-A26E-41BE-A140-FA795FDA7198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health.HBSP.Integration.Business", "Health.HBSP.Integration.Business\Health.HBSP.Integration.Business.csproj", "{993F2DA2-5455-4E06-93F2-AD25D5423B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Health.HBSP.Integration.Business", "Health.HBSP.Integration.Business\Health.HBSP.Integration.Business.csproj", "{993F2DA2-5455-4E06-93F2-AD25D5423B1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health.HBSP.Integration.ServiceFramework", "Health.HBSP.Integration.ServiceFramework\Health.HBSP.Integration.ServiceFramework.csproj", "{CC61E39D-695A-4818-95E9-A9E4A2C5ED08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health.HBSP.Integration.ServiceCore", "Health.HBSP.Integration.ServiceCore\Health.HBSP.Integration.ServiceCore.csproj", "{3B43DF98-750F-43F2-9D3D-16D2A2EB113C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Health.HBSP.Integration.ServiceCore", "Health.HBSP.Integration.ServiceCore\Health.HBSP.Integration.ServiceCore.csproj", "{3B43DF98-750F-43F2-9D3D-16D2A2EB113C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health.HBSP.Integration.ConsoleApp", "Health.HBSP.Integration.ConsoleApp\Health.HBSP.Integration.ConsoleApp.csproj", "{245CD131-4EAB-4C28-9019-963931DA21D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3B43DF98-750F-43F2-9D3D-16D2A2EB113C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B43DF98-750F-43F2-9D3D-16D2A2EB113C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B43DF98-750F-43F2-9D3D-16D2A2EB113C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245CD131-4EAB-4C28-9019-963931DA21D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245CD131-4EAB-4C28-9019-963931DA21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245CD131-4EAB-4C28-9019-963931DA21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245CD131-4EAB-4C28-9019-963931DA21D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
