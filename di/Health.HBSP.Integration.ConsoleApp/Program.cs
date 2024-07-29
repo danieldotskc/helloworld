@@ -1,5 +1,6 @@
 using Health.HBSP.Integration.Business;
 using Health.HBSP.Integration.ServiceCore;
+using Health.HBSP.Integration.ServiceFramework;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -42,7 +43,7 @@ namespace Health.HBSP.Integration.ConsoleApp
                 // register your services here.
                 services.AddScoped<IPortalSubmission, PortalSubmission>();
                 services.AddScoped<IAzureBlobStorageService, AzureBlobStorageService>();
-                services.AddScoped<ServiceFramework.IDataverseService, ServiceFramework.DataverseService>();
+                services.AddScoped<IDataverseService, DataverseService>();
                 services.AddScoped<ITestInterface, TestClass>();
                 services.AddHostedService<ConsoleHostedService>();
             });
@@ -71,7 +72,7 @@ namespace Health.HBSP.Integration.ConsoleApp
                 {
                     try
                     {
-                        _logger.LogInformation("Hello World!");
+                        _logger.LogInformation("Hello HEALTH HBSP INTEGRATION CONSOLE SERVICE!");
 
                         // Simulate real work is being done
                         await Task.Delay(1000);
@@ -97,24 +98,24 @@ namespace Health.HBSP.Integration.ConsoleApp
         }
     }
 
-    internal class Worker : IHostedService
-    {
-        public Worker(ITestInterface testClass)
-        {
-            testClass.Foo();
-        }
+    //internal class Worker : IHostedService
+    //{
+    //    public Worker(ITestInterface testClass)
+    //    {
+    //        testClass.Foo();
+    //    }
 
 
-        public Task StartAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
+    //    public Task StartAsync(CancellationToken cancellationToken)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public Task StopAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //    public Task StopAsync(CancellationToken cancellationToken)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 
     public interface ITestInterface
     {
@@ -123,9 +124,26 @@ namespace Health.HBSP.Integration.ConsoleApp
 
     public class TestClass : ITestInterface
     {
+        private IPortalSubmission portalService;
+        private IAzureBlobStorageService blobService;
+        private IDataverseService dataverseService;
+        private ILogger logger;
+        public TestClass(
+            ILogger<TestClass> Logger,
+            IPortalSubmission PortalService,
+            IAzureBlobStorageService AzureBlobService,
+            IDataverseService DataverseService) 
+        {
+            logger = Logger;
+            portalService = PortalService;
+            blobService = AzureBlobService;
+            dataverseService = DataverseService;
+        }
         public void Foo()
         {
             Console.WriteLine("Foo");
+            logger.LogDebug(blobService.GetBlob("BlobStorage"));
+            logger.LogError(dataverseService.Retrieve("accountid"));
         }
     }
 }
