@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11" pages="20">
   <diagram id="s__kkaMSGaqoqndPeKT5" name="12478-iManage">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2831,31 +2831,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4v1WnXvdFEs39Z_-nEKT" name="Page-20">
-    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nu_NqQMhUasyxqCx6wfr-2" target="nu_NqQMhUasyxqCx6wfr-4">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nu_NqQMhUasyxqCx6wfr-2" target="nu_NqQMhUasyxqCx6wfr-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-2" value="Triggered by HTTP request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-2" value="Triggered by HTTP request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nu_NqQMhUasyxqCx6wfr-4" target="nu_NqQMhUasyxqCx6wfr-6">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nu_NqQMhUasyxqCx6wfr-4" target="nu_NqQMhUasyxqCx6wfr-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-4" value="Get Client Id &amp;amp; secret and scope detail&amp;nbsp;&lt;div&gt;from Azure Key vault&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-4" value="Get Client Id &amp;amp; secret and scope detail&amp;nbsp;&lt;div&gt;from Azure Key vault&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="140" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nu_NqQMhUasyxqCx6wfr-6" target="nu_NqQMhUasyxqCx6wfr-8">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nu_NqQMhUasyxqCx6wfr-6" target="nu_NqQMhUasyxqCx6wfr-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-6" value="Call HTTP Post request for auth-token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-6" value="Call HTTP Post request for auth-token" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="240" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nu_NqQMhUasyxqCx6wfr-8" value="Return auth-token to caller&amp;nbsp;&lt;div&gt;as response&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="nu_NqQMhUasyxqCx6wfr-8" value="Return auth-token to caller&amp;nbsp;&lt;div&gt;as response&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="340" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
