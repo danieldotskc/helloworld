@@ -913,7 +913,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="2dcXZNsTqRpSR3HccrsY" name="Merger enquiry">
+  <diagram id="2dcXZNsTqRpSR3HccrsY" name="1. Merger enquiry">
     <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1001,13 +1001,13 @@
         <mxCell id="plvv_2OZGIqdtDqihsgO-1" value="Lawyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="30" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="plvv_2OZGIqdtDqihsgO-2" value="Notification" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="plvv_2OZGIqdtDqihsgO-2" value="Email notification" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="320" as="sourcePoint" />
             <mxPoint x="720" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="plvv_2OZGIqdtDqihsgO-3" value="Action (?)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="plvv_2OZGIqdtDqihsgO-3" value="Action (?)&lt;div&gt;Response,&lt;/div&gt;&lt;div&gt;Allocation,&lt;/div&gt;&lt;div&gt;etc.&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="360" as="sourcePoint" />
             <mxPoint x="560" y="360" as="targetPoint" />
@@ -1022,8 +1022,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5f-XM5nkcT39D58kklYn" name="Pre-lodgement">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="5f-XM5nkcT39D58kklYn" name="2. Pre-lodgement">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1101,7 +1101,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xZLr-Y7fgPjs80nIM7um-16" value="Sync (?) as&amp;nbsp;&lt;div&gt;Merger enquiry&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="xZLr-Y7fgPjs80nIM7um-16" value="Sync (?) as&amp;nbsp;&lt;div&gt;pre-lodgement&lt;/div&gt;&lt;div&gt;engagement&lt;/div&gt;&lt;div&gt;or&amp;nbsp;&lt;/div&gt;&lt;div&gt;Merger matter&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="400" as="sourcePoint" />
             <mxPoint x="560" y="400" as="targetPoint" />
@@ -1109,6 +1109,20 @@
         </mxCell>
         <mxCell id="ssnfxCehX_9Yofz7h22L-1" value="ACCC Merger team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="20" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnfxCehX_9Yofz7h22L-2" value="email notification" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="720" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZX5pY3jlyPc3dBhacbl-1" value="assign team" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="480" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
