@@ -1305,7 +1305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S9BIySuoBeL5VZh7AcRk" name="Entities">
-    <mxGraphModel dx="2514" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1443,7 +1443,7 @@
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qUPNNHf3nGS3fI__F2C3-15" value="Payment&lt;div&gt;(can be created on either portal &amp;amp; crm)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="qUPNNHf3nGS3fI__F2C3-15" value="Payment&lt;div&gt;(can be created on either portal &amp;amp; crm)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="630" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qUPNNHf3nGS3fI__F2C3-16" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="qUPNNHf3nGS3fI__F2C3-1" target="qUPNNHf3nGS3fI__F2C3-15" edge="1">
@@ -1695,7 +1695,7 @@
         <mxCell id="3TEX8vx-SHVrzbY7BDcM-16" value="Pre-lodgement engagement" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-290" y="152.03" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3TEX8vx-SHVrzbY7BDcM-17" value="Notificaton" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="3TEX8vx-SHVrzbY7BDcM-17" value="Notificaton" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;strokeColor=#36393d;fillColor=#ffff88;" parent="1" vertex="1">
           <mxGeometry x="-290" y="222.03" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TEX8vx-SHVrzbY7BDcM-18" value="Remedy" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
@@ -1782,7 +1782,7 @@
         <mxCell id="F4oD4TWZk8WgdEU1Cndu-15" value="Invite" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="642.03" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F4oD4TWZk8WgdEU1Cndu-21" value="Portal&amp;nbsp;Merger case&lt;div&gt;(Merger portal,&lt;/div&gt;&lt;div&gt;Merger matter)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+        <mxCell id="F4oD4TWZk8WgdEU1Cndu-21" value="Portal&amp;nbsp;Merger case&lt;div&gt;(Merger portal,&lt;/div&gt;&lt;div&gt;Merger matter)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-110" y="92.02999999999997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F4oD4TWZk8WgdEU1Cndu-25" value="" style="endArrow=none;html=1;rounded=0;dashed=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="F4oD4TWZk8WgdEU1Cndu-21" target="3TEX8vx-SHVrzbY7BDcM-15" edge="1">
@@ -1826,7 +1826,7 @@
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DPW4Rk64N40pbFuIjpU-8" value="Portal Payment&lt;div&gt;(e-pay, EFT, manual)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#ff00ff, #ededed);strokeWidth=3;dashed=1;" vertex="1" parent="1">
+        <mxCell id="3DPW4Rk64N40pbFuIjpU-8" value="Portal Payment&lt;div&gt;(e-pay, EFT, manual)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=3;dashed=1;fillColor=#ffff88;" vertex="1" parent="1">
           <mxGeometry x="-110" y="372.03" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DPW4Rk64N40pbFuIjpU-9" value="Enquiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1848,10 +1848,10 @@
             <mxPoint x="-1" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DPW4Rk64N40pbFuIjpU-13" value="&lt;div&gt;Enquiry for anonymous user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="3DPW4Rk64N40pbFuIjpU-13" value="&lt;div&gt;Enquiry for anonymous user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-450" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3DPW4Rk64N40pbFuIjpU-14" value="&lt;div&gt;Enquiry for authenticated user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="3DPW4Rk64N40pbFuIjpU-14" value="&lt;div&gt;Enquiry for authenticated user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-290" y="733.99" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DPW4Rk64N40pbFuIjpU-15" value="Merger Document" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
