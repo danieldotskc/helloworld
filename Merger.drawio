@@ -2597,11 +2597,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IY3o1s01wTWbYNgwFpuJ" name="Page-12">
-    <mxGraphModel dx="1510" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-85" target="0-Jt_K9woMn2X_mTSrwO-43">
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-85" target="0-Jt_K9woMn2X_mTSrwO-172">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="390" as="sourcePoint" />
             <mxPoint x="420" y="390" as="targetPoint" />
@@ -2619,8 +2619,8 @@
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-15" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-26" target="0-Jt_K9woMn2X_mTSrwO-85">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="470" as="sourcePoint" />
-            <mxPoint x="420" y="390" as="targetPoint" />
+            <mxPoint x="460" y="349" as="sourcePoint" />
+            <mxPoint x="420" y="269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-16" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-15">
@@ -2633,16 +2633,16 @@
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-25" value="&lt;span style=&quot;font-style: normal;&quot;&gt;Portal Merger&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;Pre-lodgement&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=2;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-25" value="&lt;span style=&quot;font-style: normal;&quot;&gt;Portal Merger&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;prelodgement&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=2;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-80" y="540" width="120" height="62.03" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MCMS Merger matter&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="240" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="59" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-26" target="0-Jt_K9woMn2X_mTSrwO-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="350" as="sourcePoint" />
-            <mxPoint x="550" y="320" as="targetPoint" />
+            <mxPoint x="680" y="229" as="sourcePoint" />
+            <mxPoint x="550" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-27">
@@ -2650,13 +2650,13 @@
             <mxPoint x="-1" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-30" value="Public register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="550" y="-80" width="120" height="60" as="geometry" />
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-30" value="MCMS Public register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="59" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-26" target="0-Jt_K9woMn2X_mTSrwO-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="520" as="sourcePoint" />
-            <mxPoint x="580" y="360" as="targetPoint" />
+            <mxPoint x="610" y="399" as="sourcePoint" />
+            <mxPoint x="580" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-31">
@@ -2670,13 +2670,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-34" value="Case&lt;div&gt;(accc_case)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="280" y="25" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-43" value="Merger matter contact&lt;div&gt;with lodgement form detail.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-43" value="MCMS Merger matter contact" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-47" value="Contact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-59" value="ANZSIC code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
@@ -2700,11 +2700,11 @@
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-70" value="Milestone (?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="948" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-74" value="&lt;span style=&quot;font-style: normal;&quot;&gt;MCMS Merger&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;Pre-lodgement&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeWidth=3;fontStyle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-74" value="&lt;span style=&quot;font-style: normal;&quot;&gt;MCMS Merger&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;prelodgement&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;strokeWidth=3;fontStyle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="240" y="540" width="120" height="62.03" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-76" value="Portal Merger party" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-26" target="0-Jt_K9woMn2X_mTSrwO-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2735,11 +2735,11 @@
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-83" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-81">
           <mxGeometry x="0.8471" relative="1" as="geometry">
-            <mxPoint y="-5" as="offset" />
+            <mxPoint x="-9" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-85" value="Portal Merger matter" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="179.99999999999997" width="120" height="60" as="geometry" />
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-85" value="Portal Merger matter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="58.99999999999997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-85" target="0-Jt_K9woMn2X_mTSrwO-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2823,9 +2823,6 @@
             <mxPoint x="-2" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-120" value="People Grid&lt;div&gt;(reuse)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="25.00000000000003" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-121" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;accc_mrf... (Portal Merger ....)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;accc_mcms... (MCMS Merger ...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;logical name &amp;amp; schema name are lowercase&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Flow name: ACCC - Merger - [Table name] - [Trigger] - [Purpose]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-100" y="1081.99" width="510" height="110" as="geometry" />
         </mxCell>
@@ -2847,17 +2844,6 @@
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-126" value="Q. Is it ok expose the ANZSIC code to public thru portal, as it is internal data so far?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-485" y="-92" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-127" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-34" target="0-Jt_K9woMn2X_mTSrwO-120">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="170" as="sourcePoint" />
-            <mxPoint x="500" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-128" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-127">
-          <mxGeometry x="0.8629" relative="1" as="geometry">
-            <mxPoint x="-1" y="3" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-137" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-25" target="0-Jt_K9woMn2X_mTSrwO-135">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2954,12 +2940,6 @@
             <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-Jt_K9woMn2X_mTSrwO-159" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-26" target="0-Jt_K9woMn2X_mTSrwO-120">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="330" as="sourcePoint" />
-            <mxPoint x="270" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-160" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-74" target="0-Jt_K9woMn2X_mTSrwO-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="200" as="sourcePoint" />
@@ -2977,7 +2957,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-55" value="Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-166" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF3333;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-55" target="0-Jt_K9woMn2X_mTSrwO-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2992,7 +2972,7 @@
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-168" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-166">
           <mxGeometry x="0.8471" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-169" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-47" target="0-Jt_K9woMn2X_mTSrwO-43">
@@ -3008,7 +2988,42 @@
         </mxCell>
         <mxCell id="0-Jt_K9woMn2X_mTSrwO-171" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-169">
           <mxGeometry x="0.8471" relative="1" as="geometry">
-            <mxPoint x="-15" y="2" as="offset" />
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-172" value="Portal Merger matter contact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-173" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-47" target="0-Jt_K9woMn2X_mTSrwO-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-174" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-173">
+          <mxGeometry x="-0.7059" relative="1" as="geometry">
+            <mxPoint x="33" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-175" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-173">
+          <mxGeometry x="0.8471" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-179" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="0-Jt_K9woMn2X_mTSrwO-55" target="0-Jt_K9woMn2X_mTSrwO-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="325" as="sourcePoint" />
+            <mxPoint x="210" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-180" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-179">
+          <mxGeometry x="-0.7059" relative="1" as="geometry">
+            <mxPoint x="33" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Jt_K9woMn2X_mTSrwO-181" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-Jt_K9woMn2X_mTSrwO-179">
+          <mxGeometry x="0.8471" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
