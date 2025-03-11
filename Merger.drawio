@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.16" pages="14">
   <diagram name="EEV" id="cTdNTrZdiVtizNcZopHO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -3768,6 +3768,38 @@
             <mxPoint x="409" y="270" as="sourcePoint" />
             <mxPoint x="206" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tkh3xrgdgTLfHL7My75Z" name="Timeline">
+    <mxGraphModel dx="794" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-1" value="Timeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-2" value="Variation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-3" value="Merger matter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-4" value="?" style="endArrow=none;html=1;rounded=0;fontSize=17;" edge="1" parent="1" source="3TQMrtLPHZsoj6NUmhKV-2" target="3TQMrtLPHZsoj6NUmhKV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="660" as="sourcePoint" />
+            <mxPoint x="510" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="3TQMrtLPHZsoj6NUmhKV-1" target="3TQMrtLPHZsoj6NUmhKV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="660" as="sourcePoint" />
+            <mxPoint x="510" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feature 19240&lt;/h1&gt;&lt;p&gt;- From where variation can be created? Portal or CRM or Portal &amp;amp; CRM?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- What is required data by Merger Team Member?&lt;/p&gt;&lt;p&gt;- Who can decide which day type (business days/calendar days) is to use in projected date update?&lt;/p&gt;&lt;p&gt;- How does Revision works?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19353&lt;/h1&gt;&lt;p&gt;- Who is authorised approver? how to select?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- It says &#39;Merger Team Member submits a variation&#39;. Which means the variation cannot be submitted by Company Representative, right?&lt;/p&gt;&lt;p&gt;- AC4, maximum extension is common for all type of extensions? or different by extension type? Is it permanent or needs configurable by super user?&lt;/p&gt;&lt;p&gt;- AC7, what is the logic to identify the relevant key dates?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19271&lt;/h1&gt;&lt;p&gt;- Revise is to use child Variation.&lt;/p&gt;&lt;p&gt;- Is Variation to be seen by Company Representative via portal?&lt;/p&gt;&lt;p&gt;- Who can submit and approve it? same as parent Variation?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;It says &#39;Merger Team Member submits a variation&#39;. Which means the variation cannot be submitted by Company Representative, right?&lt;/p&gt;&lt;p&gt;- AC4, maximum extension is common for all type of extensions? or different by extension type? Is it permanent or needs configurable by super user?&lt;/p&gt;&lt;p&gt;- AC7, what is the logic to identify the relevant key dates?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" width="700" height="2350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
