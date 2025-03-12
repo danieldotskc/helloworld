@@ -3773,47 +3773,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tkh3xrgdgTLfHL7My75Z" name="Timeline">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="690" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-1" value="Timeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-2" value="Variation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-3" value="Merger matter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-4" value="?" style="endArrow=none;html=1;rounded=0;fontSize=17;" parent="1" source="3TQMrtLPHZsoj6NUmhKV-2" target="3TQMrtLPHZsoj6NUmhKV-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="660" as="sourcePoint" />
-            <mxPoint x="510" y="610" as="targetPoint" />
+            <mxPoint x="290" y="660" as="sourcePoint" />
+            <mxPoint x="340" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="3TQMrtLPHZsoj6NUmhKV-1" target="3TQMrtLPHZsoj6NUmhKV-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="660" as="sourcePoint" />
-            <mxPoint x="510" y="610" as="targetPoint" />
+            <mxPoint x="290" y="660" as="sourcePoint" />
+            <mxPoint x="340" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TQMrtLPHZsoj6NUmhKV-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feature 19240&lt;/h1&gt;&lt;p&gt;- From where variation can be created? Portal or CRM or Portal &amp;amp; CRM?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- What is required data by Merger Team Member?&lt;/p&gt;&lt;p&gt;- Who can decide which day type (business days/calendar days) is to use in projected date update?&lt;/p&gt;&lt;p&gt;- How does Revision works?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19353&lt;/h1&gt;&lt;p&gt;- Who is authorised approver? how to select?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- It says &#39;Merger Team Member submits a variation&#39;. Which means the variation cannot be submitted by Company Representative, right?&lt;/p&gt;&lt;p&gt;- AC4, maximum extension is common for all type of extensions? or different by extension type? Is it permanent or needs configurable by super user?&lt;/p&gt;&lt;p&gt;- AC7, what is the logic to identify the relevant key dates?&lt;/p&gt;&lt;p&gt;- Can approvers approve the variation, created by themselves?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19271&lt;/h1&gt;&lt;p&gt;- Revise is to use child Variation.&lt;/p&gt;&lt;p&gt;- Is Variation to be seen by Company Representative via portal?&lt;/p&gt;&lt;p&gt;- Who can submit and approve it? same as parent Variation?&lt;/p&gt;&lt;p&gt;- Any limitation in creating child variation? Ex. Is it possible create child variation to a Variation in Phase 1, even though now is Phase 2 or SPB?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18998&lt;/h1&gt;&lt;p&gt;- Void EAD, is to create Variation with &#39;EAD nullification&#39; type&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18988&lt;/h1&gt;&lt;p&gt;- Void END, is to create Variation with &#39;END nullification&#39; type&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18992&lt;/h1&gt;&lt;p&gt;- How to re-specify END, also using Variation? or direct typing?&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;p&gt;- Is OOTB audit ok to capture the change of END values?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19001&lt;/h1&gt;&lt;p&gt;- How to re-specify EAD, also using Variation? or direct typing?&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;p&gt;- Is OOTB audit ok to capture the change of EAD values?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19205&lt;/h1&gt;&lt;p&gt;- A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fter S155 is created, w&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hat is supposed to happen to Timeline? Shifted? Stay?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Key date adjust request(?)&lt;/span&gt;&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19204&lt;/h1&gt;&lt;p&gt;- A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fter RFI is created, w&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hat is supposed to happen to Timeline? Shifted? Stay?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Key date adjust request(?)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1010" width="700" height="2350" as="geometry" />
+        <mxCell id="3TQMrtLPHZsoj6NUmhKV-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Feature 19267&lt;/h1&gt;&lt;p&gt;- From where can Variation be created? &#39;Portal&#39; OR &#39;CRM&#39; OR &#39;Portal &amp;amp; CRM&#39;?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- What is required data by Merger Team Member?&lt;/p&gt;&lt;p&gt;- Who can decide which day type (business days/calendar days) is to use in projected date update? and How?&lt;/p&gt;&lt;p&gt;- How does Revision works?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19353&lt;/h1&gt;&lt;p&gt;- Who is authorised approver? how to select?&amp;nbsp;&lt;/p&gt;&lt;p&gt;- It says &#39;Merger Team Member submits a variation&#39;. Which means the variation cannot be submitted by Company Representative, right?&lt;/p&gt;&lt;p&gt;- AC4, maximum extension is common for all type of extensions? or different by extension type? Is it permanent or needs configurable by super user?&lt;/p&gt;&lt;p&gt;- AC7, what is the logic to identify the relevant key dates?&lt;/p&gt;&lt;p&gt;- Can approvers approve the variation, created by themselves?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19271&lt;/h1&gt;&lt;p&gt;- Revise is to use child Variation.&lt;/p&gt;&lt;p&gt;- Is Variation to be seen by Company Representative via portal?&lt;/p&gt;&lt;p&gt;- Who can submit and approve it? same as parent Variation?&lt;/p&gt;&lt;p&gt;- Any limitation in creating child variation? Ex. Is it possible create child variation to a Variation in Phase 1, even though now is Phase 2 or SPB?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18998&lt;/h1&gt;&lt;p&gt;- Void EAD, is to create Variation with &#39;EAD nullification&#39; type&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18988&lt;/h1&gt;&lt;p&gt;- Void END, is to create Variation with &#39;END nullification&#39; type&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 18992&lt;/h1&gt;&lt;p&gt;- How to re-specify END, also using Variation? or direct typing?&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;p&gt;- Is OOTB audit ok to capture the change of END values?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19001&lt;/h1&gt;&lt;p&gt;- How to re-specify EAD, also using Variation? or direct typing?&lt;/p&gt;&lt;p&gt;- interface design (?) - side pane&lt;/p&gt;&lt;p&gt;- Is OOTB audit ok to capture the change of EAD values?&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19205&lt;/h1&gt;&lt;p&gt;- A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fter S155 is created, w&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hat is supposed to happen to Timeline? Shifted? Stay?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Key date adjust request(?)&lt;/span&gt;&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Story 19204&lt;/h1&gt;&lt;p&gt;- A&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fter RFI is created, w&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hat is supposed to happen to Timeline? Shifted? Stay?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Key date adjust request(?)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="519" width="930" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-7" value="S155/RFI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TQMrtLPHZsoj6NUmhKV-8" value="?" style="endArrow=none;html=1;rounded=0;fontSize=17;" parent="1" source="3TQMrtLPHZsoj6NUmhKV-7" target="3TQMrtLPHZsoj6NUmhKV-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="577" y="650" as="sourcePoint" />
-            <mxPoint x="503" y="480" as="targetPoint" />
+            <mxPoint x="407" y="650" as="sourcePoint" />
+            <mxPoint x="333" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Tu-Wjylq9p9GQCRnplj-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="3TQMrtLPHZsoj6NUmhKV-2" target="3TQMrtLPHZsoj6NUmhKV-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="410" as="sourcePoint" />
-            <mxPoint x="750" y="360" as="targetPoint" />
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
