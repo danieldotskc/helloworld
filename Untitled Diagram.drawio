@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.10" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8" pages="4">
   <diagram name="Page-1" id="cTdNTrZdiVtizNcZopHO">
     <mxGraphModel dx="1793" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -643,6 +643,41 @@
             <mxPoint x="410" y="1820" as="sourcePoint" />
             <mxPoint x="350" y="1770" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H2Bpq0jU7HxwCN-nymn_" name="Page-4">
+    <mxGraphModel dx="788" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-1" value="AD FS" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.ad_fs" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-2" value="CIAM" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-3" value="Audrey Chroder" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="64" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-4" value="Audrey_11 for Omegapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-9" value="Audrey_14 for Betapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-10" value="Audrey_18 for Alphapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-12" value="Audrey_11 for Omegapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-13" value="Audrey_14 for Betapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-14" value="Audrey_18 for Alphapham" style="html=1;verticalLabelPosition=middle;align=left;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
