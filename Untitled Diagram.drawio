@@ -875,12 +875,12 @@
         <mxCell id="wrGiKZQij7kTWWpsnLY0-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
           <mxGeometry y="60" width="960" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-130" value="SSO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-130" value="SSO with&amp;nbsp;&lt;div&gt;CIAM local account&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
           <mxGeometry width="170" height="134" as="geometry">
             <mxRectangle width="170" height="134" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-131" value="&lt;div&gt;-&lt;/div&gt;(Any concerns around HAG is omitted as nothing is known about implementation with HAG)&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-131" value="&lt;div&gt;-&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
           <mxGeometry x="170" width="380" height="134" as="geometry">
             <mxRectangle width="380" height="134" as="alternateBounds" />
           </mxGeometry>
@@ -898,7 +898,7 @@
             <mxRectangle width="170" height="136" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-135" value="- Is it possible a single person having multiple myID accounts?&lt;div&gt;- If not, myID may not support this approach.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-133">
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-135" value="- Is it possible a single person having multiple myID accounts?&lt;div&gt;- If not, myID may not support this approach.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Any concerns around HAG is omitted as nothing is known about implementation with HAG)&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-133">
           <mxGeometry x="170" width="380" height="136" as="geometry">
             <mxRectangle width="380" height="136" as="alternateBounds" />
           </mxGeometry>
