@@ -648,7 +648,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H2Bpq0jU7HxwCN-nymn_" name="Page-4">
-    <mxGraphModel dx="985" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1503" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,19 +680,19 @@
           <mxGeometry x="50" y="470" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-58" value="Audrey_11" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="380" width="260" height="96" as="geometry" />
+          <mxGeometry x="320" y="383" width="260" height="96" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-59" value="upn+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;audrey_11@healthciam.onmicrosoft.com&lt;/span&gt;&lt;div&gt;mail+audrey.chroder@alphapham.com.au&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-58">
           <mxGeometry y="50" width="260" height="46" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-60" value="Audrey_14" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="488" width="260" height="98" as="geometry" />
+          <mxGeometry x="320" y="490" width="260" height="98" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-61" value="upn+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;audrey_14@healthciam.onmicrosoft.com&lt;/span&gt;&lt;div&gt;mail+audrey.chroder@alphapham.com.au&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-60">
           <mxGeometry y="50" width="260" height="48" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-62" value="Audrey_18" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="606" width="260" height="100" as="geometry" />
+          <mxGeometry x="320" y="600" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-63" value="upn+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;audrey_18@healthciam.onmicrosoft.com&lt;/span&gt;&lt;div&gt;mail+audrey.chroder@alphapham.com.au&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-62">
           <mxGeometry y="50" width="260" height="50" as="geometry" />
@@ -761,7 +761,7 @@
         <mxCell id="wrGiKZQij7kTWWpsnLY0-80" value="Audrey_00" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="827" width="260" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-81" value="upn+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;audrey_11@healthciam.onmicrosoft.com&lt;/span&gt;&lt;div&gt;mail+audrey.chroder@alphapham.com.au&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-80">
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-81" value="&lt;strike&gt;upn+audrey_11@healthciam.onmicrosoft.com&lt;/strike&gt;&lt;div&gt;mail+audrey.chroder@alphapham.com.au&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-80">
           <mxGeometry y="50" width="260" height="46" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-82" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/Dataverse.svg;" vertex="1" parent="1">
@@ -825,8 +825,8 @@
         <mxCell id="wrGiKZQij7kTWWpsnLY0-96" value="Organisation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="375" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-97" value="Contact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="375" width="120" height="60" as="geometry" />
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-97" value="Contact&lt;div&gt;+adx_identity_username&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="375" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wrGiKZQij7kTWWpsnLY0-98" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="470" width="120" height="60" as="geometry" />
@@ -852,8 +852,158 @@
         <mxCell id="wrGiKZQij7kTWWpsnLY0-106" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="864" y="455" width="10" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-107" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="815" y="435" width="10" height="15" as="geometry" />
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-107" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="808" y="435" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-108" value="Organisation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="917" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-109" value="Contact&lt;div&gt;+adx_identity_username&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="917" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-110" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1012" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-111" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="wrGiKZQij7kTWWpsnLY0-109" target="wrGiKZQij7kTWWpsnLY0-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="912" as="sourcePoint" />
+            <mxPoint x="840" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-112" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="887" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-113" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="972" y="902" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-114" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="wrGiKZQij7kTWWpsnLY0-110" target="wrGiKZQij7kTWWpsnLY0-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="957" as="sourcePoint" />
+            <mxPoint x="960" y="957" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-115" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="997" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-117" value="ContactOrganisation&lt;div&gt;+upn&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="827" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-118" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="wrGiKZQij7kTWWpsnLY0-108" target="wrGiKZQij7kTWWpsnLY0-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="837" y="927" as="sourcePoint" />
+            <mxPoint x="873" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-119" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="811" y="902" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-120" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="927" y="886" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-121" value="n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="886" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-122" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User:Service&lt;/h1&gt;&lt;p&gt;Audrey_11 &lt;b&gt;:&lt;/b&gt; EBS &amp;amp; TGA&lt;/p&gt;&lt;p&gt;Audrey_14 &lt;b&gt;:&lt;/b&gt; EBS &amp;amp; AEMS&lt;/p&gt;&lt;p&gt;Audrey_18 &lt;b&gt;:&lt;/b&gt; EBS&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="628" y="105" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-124" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1170" width="960" height="598" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
+          <mxGeometry width="960" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-126" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-125">
+          <mxGeometry width="170" height="60" as="geometry">
+            <mxRectangle width="170" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-127" value="multiple login accounts&amp;nbsp;&lt;div&gt;(= multiple Contact records)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-125">
+          <mxGeometry x="170" width="380" height="60" as="geometry">
+            <mxRectangle width="380" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-128" value="single login account&lt;div&gt;(= single Contact record)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-125">
+          <mxGeometry x="550" width="410" height="60" as="geometry">
+            <mxRectangle width="410" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
+          <mxGeometry y="60" width="960" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-130" value="SSO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
+          <mxGeometry width="170" height="134" as="geometry">
+            <mxRectangle width="170" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-131" value="&lt;div&gt;-&lt;/div&gt;(Any concerns around HAG is omitted as nothing is known about implementation with HAG)&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
+          <mxGeometry x="170" width="380" height="134" as="geometry">
+            <mxRectangle width="380" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-132" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-129">
+          <mxGeometry x="550" width="410" height="134" as="geometry">
+            <mxRectangle width="410" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
+          <mxGeometry y="194" width="960" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-134" value="myID" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-133">
+          <mxGeometry width="170" height="136" as="geometry">
+            <mxRectangle width="170" height="136" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-135" value="- Is it possible a single person having multiple myID accounts?&lt;div&gt;- If not, myID may not support this approach.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-133">
+          <mxGeometry x="170" width="380" height="136" as="geometry">
+            <mxRectangle width="380" height="136" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-136" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-133">
+          <mxGeometry x="550" width="410" height="136" as="geometry">
+            <mxRectangle width="410" height="136" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
+          <mxGeometry y="330" width="960" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-138" value="Account share" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-137">
+          <mxGeometry width="170" height="134" as="geometry">
+            <mxRectangle width="170" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-139" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-137">
+          <mxGeometry x="170" width="380" height="134" as="geometry">
+            <mxRectangle width="380" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-140" value="1. &#39;A&#39; user logs in with &#39;aa&#39; account and select &#39;AA&#39; org to uses &#39;EBS&#39; service&lt;div&gt;2. &#39;B&#39; user&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;logs in with &#39;aa&#39; account and select &#39;BB&#39; org to uses &#39;AEMS&#39; service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. When &#39;A&#39; user goes to &#39;AEMS&#39;, which user the profile of &#39;BB&#39; org, not &#39;AA&#39;&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-137">
+          <mxGeometry x="550" width="410" height="134" as="geometry">
+            <mxRectangle width="410" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-141" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-124">
+          <mxGeometry y="464" width="960" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-142" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-141">
+          <mxGeometry width="170" height="134" as="geometry">
+            <mxRectangle width="170" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-143" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-141">
+          <mxGeometry x="170" width="380" height="134" as="geometry">
+            <mxRectangle width="380" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-144" value="- Is it possible to consolidate multiple AD FS accounts to a single CIAM account?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="wrGiKZQij7kTWWpsnLY0-141">
+          <mxGeometry x="550" width="410" height="134" as="geometry">
+            <mxRectangle width="410" height="134" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-145" value="- Domino attribute, having upn, needs to update with &#39;@healthciam.onmicrosoft.com&#39;.&lt;div&gt;- Portal user NO need to select Organisation because login account is already associated to a specific Org.&lt;/div&gt;&lt;div&gt;- Portal user has to use different account for different Org.&lt;/div&gt;&lt;div&gt;- Each &lt;b&gt;Contact&lt;/b&gt; is related to &lt;b&gt;Service&lt;/b&gt;.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="405" width="300" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-146" value="- Domino attribute, having upn, &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;NO&lt;/font&gt;&lt;/b&gt; needs to update with &#39;@healthciam.onmicrosoft.com&#39;.&lt;div&gt;- Portal user can use only 1 account for multiple Orgs.&lt;/div&gt;&lt;div&gt;- Portal user select organisation after login.&lt;/div&gt;&lt;div&gt;- &lt;b&gt;ContactOrganisation&lt;/b&gt; is related to &lt;b&gt;Service&lt;/b&gt;.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="827" width="300" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
