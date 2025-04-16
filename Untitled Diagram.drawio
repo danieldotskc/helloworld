@@ -956,7 +956,7 @@
         <mxCell id="wrGiKZQij7kTWWpsnLY0-149" value="Custom API" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerApps.svg;" vertex="1" parent="1">
           <mxGeometry x="1840" y="40" width="52.18" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wrGiKZQij7kTWWpsnLY0-150" value="- Retrieve custom attributes using username &amp;amp; selected organisation." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wrGiKZQij7kTWWpsnLY0-150" value="- Retrieve custom attributes using username &amp;amp; selected organisation.&lt;div&gt;- the upn detail is part of custom attributes and kept in the &#39;ContactOrganisation&#39; table.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1740" y="827" width="300" height="145" as="geometry" />
         </mxCell>
       </root>
