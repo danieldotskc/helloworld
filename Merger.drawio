@@ -5079,7 +5079,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rtyFPe9-QkBGFtF1mVIy-24" value="Payment Date received has value" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rtyFPe9-QkBGFtF1mVIy-24" value="Payment Date has value" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="840" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rtyFPe9-QkBGFtF1mVIy-25" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtyFPe9-QkBGFtF1mVIy-24" target="rtyFPe9-QkBGFtF1mVIy-18">
