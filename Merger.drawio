@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.1" pages="18">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2" pages="19">
   <diagram name="EEV" id="cTdNTrZdiVtizNcZopHO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -5143,6 +5143,35 @@
               <mxPoint x="900" y="1120" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C1BMBMnKKGbr-YT_bzll" name="Page-19">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-1" value="Notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-2" value="Pre-notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-3" value="Merger Matter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-6" value="&lt;b&gt;Submit (Modified)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;- Create &#39;Working&#39; copy with &#39;Submitted&#39; status &amp;amp; &#39;false&#39; &#39;Original&#39; flag.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-7" value="&lt;b&gt;Create&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;- If it is &#39;Original&#39; copy, Create a new &#39;Merger Matter&#39; with &#39;Pre-notification&#39; phase.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-8" value="&lt;b&gt;Submit (Modified)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;- Create &#39;Working&#39; copy with &#39;Submitted&#39; status &amp;amp; &#39;false&#39; &#39;Original&#39; flag.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aMuyEeE7gLXy8QVTQEoY-9" value="&lt;b&gt;Create&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;- If it is &#39;Original&#39; copy &amp;amp; there exist a submitted &#39;Pre-notification&#39;, &#39;Merger Matter&#39; should stay in &#39;Pre-Notification&#39; phase.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- If it is &#39;Original&#39; copy &amp;amp; there exist a draft &#39;Pre-notification&#39;,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Merger Matter&#39; should stay in &#39;Notification (Phase 1)&#39; phase.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- If it is &#39;Original&#39; copy &amp;amp; there exist no &#39;Pre-notification,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Merger Matter&#39; should stay in &#39;Notification (Phase 1)&#39; phase.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="440" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
