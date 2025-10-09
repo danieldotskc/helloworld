@@ -5224,10 +5224,10 @@
         <mxCell id="xVglxfWlKOruy_aZxrCw-13" value="Get TR1021DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="170" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-14" value="NOCC Issue date,&lt;div&gt;NOCC issue due date,&lt;/div&gt;&lt;div&gt;TR1015DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xVglxfWlKOruy_aZxrCw-14" value="NOCC Issue date,&lt;div&gt;NOCC issue due date,&lt;/div&gt;&lt;div&gt;TR1015DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-15" value="PBA Issue date,&lt;div&gt;PBA issue due date,&lt;/div&gt;&lt;div&gt;TR1021DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xVglxfWlKOruy_aZxrCw-15" value="PBA Issue date,&lt;div&gt;PBA issue due date,&lt;/div&gt;&lt;div&gt;TR1021DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-16" value="Get TR1015DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -5280,6 +5280,9 @@
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-28" value="Update Timeline &amp;amp; timelinesnapshot" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xVglxfWlKOruy_aZxrCw-29" value="if (NOCC issue date &amp;lt; TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;div&gt;NOCC issue date &amp;lt; TR-1011&#39;s new date (NOCC issue due date)) it&#39;s ok&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;gt; TR-1011&#39;s new date (NOCC issue due date)) do something&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;lt; TR-1011&#39;s new date (NOCC issue due date)) do something&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;gt; TR-1011&#39;s new date (NOCC issue due date)) do something&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="470" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
