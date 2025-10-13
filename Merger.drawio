@@ -5320,8 +5320,11 @@
             <mxPoint x="520" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DCarqD4S-oij56gwz8cj-1" value="TR1011: NOCC Issue due date&lt;div&gt;TR1014: Phase 2 determination end date&lt;/div&gt;&lt;div&gt;TR1015: Last day for information requests under 51ABZZD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TR1020: PBA due date&lt;/div&gt;&lt;div&gt;TR1019: PBA determination end date&lt;/div&gt;&lt;div&gt;TR1021: Last day for information requests under 51ABZZD&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DCarqD4S-oij56gwz8cj-1" value="TR1011: NOCC Issue due date&lt;div&gt;TR1014: Phase 2 determination end date&lt;/div&gt;&lt;div&gt;TR1015: Last day for information requests under 51ABZZD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TR1020: PBA due date&lt;/div&gt;&lt;div&gt;TR1019: PBA determination end date&lt;/div&gt;&lt;div&gt;TR1021: Last day for information requests under 51ABZZD&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k2v_5KRM_tTuPz2Mdlbh-1" value="Review&lt;div&gt;- Updating menu&lt;/div&gt;&lt;div&gt;- Change the logic in Timeline Review creation/approval esp. TR1015 &amp;amp; TR1021 (Last day for Information Request under 51ABZZD in Phase 2 &amp;amp; PBA)&amp;nbsp;&lt;/div&gt;&lt;div&gt;- NOCC/PBA issue status change (between late and in-time)&lt;/div&gt;&lt;div&gt;- Kelly&#39;s question&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Adjust extension button&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="880" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
