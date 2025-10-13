@@ -5183,141 +5183,141 @@
         <mxCell id="1" parent="0" />
         <mxCell id="xVglxfWlKOruy_aZxrCw-1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-2" target="xVglxfWlKOruy_aZxrCw-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-2" value="Review includes&lt;div&gt;TR-1011 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="200" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-4" target="xVglxfWlKOruy_aZxrCw-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-4" value="Review includes&lt;div&gt;TR-1020 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xVglxfWlKOruy_aZxrCw-2" value="Review includes&lt;div&gt;TR-1011 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-5" value="Review includes&lt;div&gt;TR-1014 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xVglxfWlKOruy_aZxrCw-3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-4" target="xVglxfWlKOruy_aZxrCw-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVglxfWlKOruy_aZxrCw-4" value="Review includes&lt;div&gt;TR-1020 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xVglxfWlKOruy_aZxrCw-5" value="Review includes&lt;div&gt;TR-1014 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-6" value="Review includes&lt;div&gt;TR-1019 Timeline?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="800" width="160" height="80" as="geometry" />
+          <mxGeometry x="40" y="1040" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-7" value="Get NOCC Issue Decision" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="210" width="160" height="60" as="geometry" />
+          <mxGeometry x="240" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-9" target="xVglxfWlKOruy_aZxrCw-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-9" value="Get PBA Issue Decision" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="450" width="160" height="60" as="geometry" />
+          <mxGeometry x="240" y="690" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xVglxfWlKOruy_aZxrCw-11" target="xVglxfWlKOruy_aZxrCw-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-11" value="Get TR1015DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="690" width="160" height="60" as="geometry" />
+          <mxGeometry x="240" y="930" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xVglxfWlKOruy_aZxrCw-13" target="xVglxfWlKOruy_aZxrCw-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-13" value="Get TR1021DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="450" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="690" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-14" value="NOCC Issue date,&lt;div&gt;NOCC issue due date,&lt;/div&gt;&lt;div&gt;TR1015DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="840" y="200" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xVglxfWlKOruy_aZxrCw-15" value="PBA Issue date,&lt;div&gt;PBA issue due date,&lt;/div&gt;&lt;div&gt;TR1021DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="840" y="440" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="xVglxfWlKOruy_aZxrCw-15" value="PBA Issue date,&lt;div&gt;PBA issue due date,&lt;/div&gt;&lt;div&gt;TR1021DaystoAdd&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="840" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-16" value="Get TR1015DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="210" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-5" target="xVglxfWlKOruy_aZxrCw-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="700" as="sourcePoint" />
-            <mxPoint x="240" y="720" as="targetPoint" />
+            <mxPoint x="260" y="940" as="sourcePoint" />
+            <mxPoint x="240" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-7" target="xVglxfWlKOruy_aZxrCw-30" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="520" as="sourcePoint" />
-            <mxPoint x="720" y="520" as="targetPoint" />
+            <mxPoint x="680" y="760" as="sourcePoint" />
+            <mxPoint x="720" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-16" target="xVglxfWlKOruy_aZxrCw-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="560" as="sourcePoint" />
-            <mxPoint x="920" y="560" as="targetPoint" />
+            <mxPoint x="880" y="800" as="sourcePoint" />
+            <mxPoint x="920" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xVglxfWlKOruy_aZxrCw-21" target="xVglxfWlKOruy_aZxrCw-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-21" value="Calc (TR-1014 + TR1015DaystoAdd)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="690" width="160" height="60" as="geometry" />
+          <mxGeometry x="440" y="930" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-22" value="Update Timeline &amp;amp; timelinesnapshot" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="690" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="930" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xVglxfWlKOruy_aZxrCw-24" target="xVglxfWlKOruy_aZxrCw-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-24" value="Get TR1021DaystoAdd from Merger-Matter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="810" width="160" height="60" as="geometry" />
+          <mxGeometry x="240" y="1050" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-6" target="xVglxfWlKOruy_aZxrCw-24" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="840" as="sourcePoint" />
-            <mxPoint x="280" y="840" as="targetPoint" />
+            <mxPoint x="240" y="1080" as="sourcePoint" />
+            <mxPoint x="280" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xVglxfWlKOruy_aZxrCw-27" target="xVglxfWlKOruy_aZxrCw-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-27" value="Calc (TR-1019 + TR1021DaystoAdd)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="810" width="160" height="60" as="geometry" />
+          <mxGeometry x="440" y="1050" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-28" value="Update Timeline &amp;amp; timelinesnapshot" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="810" width="160" height="60" as="geometry" />
+          <mxGeometry x="640" y="1050" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-29" value="&lt;div&gt;[Full version]&lt;/div&gt;if (NOCC issue date &amp;lt; TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;div&gt;NOCC issue date &amp;lt; TR-1011&#39;s new date (NOCC issue due date))&lt;/div&gt;&lt;div&gt;{&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; do nothing&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;gt; TR-1011&#39;s new date (NOCC issue due date))&amp;nbsp;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // means NOCC issue becomes late by Review&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // TR1015DaystoAdd = calc&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;lt; TR-1011&#39;s new date (NOCC issue due date)) do something&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // means NOCC issue becomes in-time by Review&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // TR1015DaystoAdd = default value&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;else if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TR-1011&#39;s previous date (NOCC issue due date) &amp;amp;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NOCC issue date &amp;gt; TR-1011&#39;s new date (NOCC issue due date)) do something&lt;/div&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// means NOCC issue still late but needs re-calc&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // TR1015DaystoAdd = calc&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[Simplified version]&lt;/div&gt;&lt;div&gt;if (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;lt;= TR-1011&#39;s new date (NOCC issue due date))&lt;/span&gt;&lt;div&gt;{&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// TR1015DaystoAdd = default value&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;else&amp;nbsp; //&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue date &amp;gt; TR-1011&#39;s new date (NOCC issue due date))&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // means NOCC issue becomes late by Review&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // TR1015DaystoAdd = calc&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Test Case #1 NOCC issue due date(TR1011) is changed&lt;/div&gt;&lt;div&gt;- 1-1 NOCC is not issued &amp;gt;&amp;gt; Nothing happen to TR1015 timeline&lt;/div&gt;&lt;div&gt;- 1-2-1 NOCC issue was not late and is not late after NOCC issue due date is changed &amp;gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Nothing happen to TR1015 timeline&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- 1-2-2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue was not late and becomes late after NOCC issue due date is changed &amp;gt;&amp;gt; merger&#39;s TR1015DaystoAdd &amp;amp; TR1015 Timeline are to updated.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- 1-2-3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NOCC issue was late and becomes in-time after NOCC issue due date is changed &amp;gt;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;merger&#39;s TR1015DaystoAdd &amp;amp; TR1015 Timeline are to updated.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;- 1-2-4&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;NOCC issue was late and still late after NOCC issue due date is changed &amp;gt;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;merger&#39;s TR1015DaystoAdd &amp;amp; TR1015 Timeline are to updated.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Test Case #2 Phase 2 determination end date&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(TR1014)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;is changed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Test Case #3 PBA issue due date(TR1020) is changed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Test Case #4 PBA determination end date&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;(TR1019)&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;is changed&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="200" width="470" height="910" as="geometry" />
+          <mxGeometry x="1040" y="440" width="470" height="910" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-30" value="NOCC issue Decision&amp;nbsp;&lt;div&gt;exist?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="200" width="160" height="80" as="geometry" />
+          <mxGeometry x="440" y="440" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-31" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-30" target="xVglxfWlKOruy_aZxrCw-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="310" as="sourcePoint" />
-            <mxPoint x="500" y="310" as="targetPoint" />
+            <mxPoint x="460" y="550" as="sourcePoint" />
+            <mxPoint x="500" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-32" value="PBA issue Decision&amp;nbsp;&lt;div&gt;exist?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="440" width="160" height="80" as="geometry" />
+          <mxGeometry x="440" y="680" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-33" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-32" target="xVglxfWlKOruy_aZxrCw-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="460" as="sourcePoint" />
-            <mxPoint x="680" y="460" as="targetPoint" />
+            <mxPoint x="640" y="700" as="sourcePoint" />
+            <mxPoint x="680" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-34" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="480" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="480" y="560" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xVglxfWlKOruy_aZxrCw-30" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="360" as="sourcePoint" />
-            <mxPoint x="520" y="320" as="targetPoint" />
+            <mxPoint x="640" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-36" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="480" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="480" y="800" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xVglxfWlKOruy_aZxrCw-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="520" as="sourcePoint" />
-            <mxPoint x="520" y="560" as="targetPoint" />
+            <mxPoint x="520" y="760" as="sourcePoint" />
+            <mxPoint x="520" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DCarqD4S-oij56gwz8cj-1" value="TR1011: NOCC Issue due date&lt;div&gt;TR1014: Phase 2 determination end date&lt;/div&gt;&lt;div&gt;TR1015: Last day for information requests under 51ABZZD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TR1020: PBA due date&lt;/div&gt;&lt;div&gt;TR1019: PBA determination end date&lt;/div&gt;&lt;div&gt;TR1021: Last day for information requests under 51ABZZD&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -5325,6 +5325,9 @@
         </mxCell>
         <mxCell id="k2v_5KRM_tTuPz2Mdlbh-1" value="Review&lt;div&gt;- Updating menu&lt;/div&gt;&lt;div&gt;- Change the logic in Timeline Review creation/approval esp. TR1015 &amp;amp; TR1021 (Last day for Information Request under 51ABZZD in Phase 2 &amp;amp; PBA)&amp;nbsp;&lt;/div&gt;&lt;div&gt;- NOCC/PBA issue status change (between late and in-time)&lt;/div&gt;&lt;div&gt;- Kelly&#39;s question&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Adjust extension button&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="40" width="880" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k2v_5KRM_tTuPz2Mdlbh-2" value="What to test&lt;div&gt;- When &#39;Review&#39; becomes available&lt;/div&gt;&lt;div&gt;- What to happen when &#39;Review&#39; button is clicked&lt;/div&gt;&lt;div&gt;- What to happen when &#39;Review&#39; TLEX is approved&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="1440" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
