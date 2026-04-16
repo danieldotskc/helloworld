@@ -346,7 +346,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="nFZAshuc1DL1_Ss7xi1a" name="Page-2">
+  <diagram id="nFZAshuc1DL1_Ss7xi1a" name="Phase">
     <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -354,20 +354,82 @@
         <mxCell id="bl4nYXAQVGv4wycSVClq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;" value="Start" vertex="1">
           <mxGeometry height="40" width="40" x="360" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="bl4nYXAQVGv4wycSVClq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Matter&#39;s Phase and/or Status is updated" vertex="1">
-          <mxGeometry height="60" width="120" x="320" y="120" as="geometry" />
+        <mxCell id="bl4nYXAQVGv4wycSVClq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Early Discussion (Notification)" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bl4nYXAQVGv4wycSVClq-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="Phase &amp;amp; Status&amp;nbsp;&lt;div&gt;are updated?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="120" y="240" as="geometry" />
+        <mxCell id="bl4nYXAQVGv4wycSVClq-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="prev Phase == Early Discussion &amp;amp;&amp;amp; new Status == &#39;Closed&#39;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;prev Phase == &#39;Early Discussion&#39; &amp;amp;&amp;amp; prev Phase == new Phase &amp;amp;&amp;amp; new Status == &#39;Closed&#39;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="bl4nYXAQVGv4wycSVClq-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="Only Phase&amp;nbsp;&lt;div&gt;is updated?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="320" y="240" as="geometry" />
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Assumption&lt;/h1&gt;&lt;p&gt;1. a record is not created with finalised status.&lt;/p&gt;&lt;p&gt;2. once MM has progressed to next Phase, it cannot update to previous Phase&#39;s Closed status.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="940" x="470" as="geometry" />
         </mxCell>
-        <mxCell id="bl4nYXAQVGv4wycSVClq-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="Only Status&lt;div&gt;is updated?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="520" y="240" as="geometry" />
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Draft Notification" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bl4nYXAQVGv4wycSVClq-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Matter Create/Update Plugin&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Synchronous&lt;/span&gt;&lt;/h1&gt;&lt;/font&gt;&lt;/div&gt;&lt;p&gt;Monitors the Phase and Status.&lt;/p&gt;&lt;p&gt;PreImages: Phase, Status&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="310" x="490" y="40" as="geometry" />
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Notification" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-4" edge="1" parent="1" source="bl4nYXAQVGv4wycSVClq-2" style="curved=1;endArrow=classic;html=1;rounded=0;" target="bl4nYXAQVGv4wycSVClq-3" value="Update to&amp;nbsp;&lt;div&gt;&#39;Closed&#39; status&amp;nbsp;&lt;div&gt;in manual&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0023" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="120" y="170" />
+              <mxPoint x="110" y="220" />
+            </Array>
+            <mxPoint x="110" y="270" as="sourcePoint" />
+            <mxPoint x="160" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update &#39;Early Discussion&#39; phase CT &#39;End Date&#39;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-6" edge="1" parent="1" source="bl4nYXAQVGv4wycSVClq-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4EyMBjtTWv6kG-6_9Zt2-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="prev Phase == Early Discussion &amp;amp;&amp;amp; new Phase == Draft Notification &amp;amp;&amp;amp; no CT with &#39;Closed&#39; status" vertex="1">
+          <mxGeometry height="80" width="120" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-8" edge="1" parent="1" source="bl4nYXAQVGv4wycSVClq-2" style="curved=1;endArrow=classic;html=1;rounded=0;" target="4EyMBjtTWv6kG-6_9Zt2-7" value="Draft Notification is submitted">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+              <mxPoint x="290" y="250" />
+            </Array>
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update &#39;Early Discussion&#39; phase CT &#39;End Date&#39;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="prev Phase == Early Discussion &amp;amp;&amp;amp; new Phase == Notification &amp;amp;&amp;amp; no CT with &#39;Closed&#39; status" vertex="1">
+          <mxGeometry height="80" width="120" x="440" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-11" edge="1" parent="1" source="bl4nYXAQVGv4wycSVClq-2" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4EyMBjtTWv6kG-6_9Zt2-10" value="Effective Notification Date&amp;nbsp;&lt;div&gt;is set&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="170" />
+              <mxPoint x="490" y="220" />
+            </Array>
+            <mxPoint x="700" y="370" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="prev Phase == Early Discussion &amp;amp;&amp;amp; new Phase == Notification &amp;amp;&amp;amp; no CT with &#39;Closed&#39; status" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-13" edge="1" parent="1" source="bl4nYXAQVGv4wycSVClq-2" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4EyMBjtTWv6kG-6_9Zt2-12" value="END is cleared">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="180" />
+              <mxPoint x="710" y="220" />
+            </Array>
+            <mxPoint x="700" y="370" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
