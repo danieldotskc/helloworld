@@ -347,10 +347,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nFZAshuc1DL1_Ss7xi1a" name="Phase">
-    <mxGraphModel dx="1178" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-51" edge="1" parent="1" source="4EyMBjtTWv6kG-6_9Zt2-35" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#ff0000, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910" y="390" as="sourcePoint" />
+            <mxPoint x="1510" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4EyMBjtTWv6kG-6_9Zt2-41" edge="1" parent="1" source="4EyMBjtTWv6kG-6_9Zt2-35" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#ff0000, #ededed);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="746" y="340" as="sourcePoint" />
@@ -364,7 +370,7 @@
           <mxGeometry height="80" width="120" x="27" y="560" as="geometry" />
         </mxCell>
         <mxCell id="4EyMBjtTWv6kG-6_9Zt2-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Assumption&lt;/h1&gt;&lt;p&gt;1. a record is not created with finalised status.&lt;/p&gt;&lt;p&gt;2. once MM has progressed to next Phase, it cannot update to previous Phase&#39;s Closed status.&lt;/p&gt;&lt;p&gt;3. the Assessment Ceased is invalid status to the &#39;Early Discussion&#39; &amp;amp; &#39;Draft Notification&#39; phase&lt;/p&gt;&lt;p&gt;4. manul creating Early Discussion/Draft Notification is not fully covered.&lt;/p&gt;" vertex="1">
-          <mxGeometry height="170" width="940" x="470" as="geometry" />
+          <mxGeometry height="170" width="940" x="630" as="geometry" />
         </mxCell>
         <mxCell id="4EyMBjtTWv6kG-6_9Zt2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Draft Notification" vertex="1">
           <mxGeometry height="60" width="120" x="1027" y="400" as="geometry" />
@@ -597,6 +603,16 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1410" y="670" as="sourcePoint" />
             <mxPoint x="1410" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EyMBjtTWv6kG-6_9Zt2-53" edge="1" parent="1" source="4EyMBjtTWv6kG-6_9Zt2-44" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="170" />
+              <mxPoint x="550" y="130" />
+            </Array>
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="620" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
