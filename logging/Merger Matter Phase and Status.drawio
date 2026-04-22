@@ -855,6 +855,15 @@
             <mxPoint x="-4.5" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZDIeanq5lNilRSccaFXE-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" value="Waiver Application Date" vertex="1">
+          <mxGeometry height="40" width="60" x="-120" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDIeanq5lNilRSccaFXE-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" value="Effective Notification Date" vertex="1">
+          <mxGeometry height="40" width="60" x="1060" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDIeanq5lNilRSccaFXE-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" value="Effective Application Date" vertex="1">
+          <mxGeometry height="40" width="60" x="1620" y="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
