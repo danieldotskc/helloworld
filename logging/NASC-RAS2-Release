@@ -187,13 +187,13 @@
           <mxGeometry height="60" width="120" x="790" y="440" as="geometry" />
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" value="Key vault&lt;div&gt;(acccmailmergedocdev-kv)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="670" y="640" as="geometry" />
+          <mxGeometry height="60" width="160" x="770" y="640" as="geometry" />
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;strokeWidth=3;" value="Enterprise Doc Gen API" vertex="1">
           <mxGeometry height="60" width="120" x="1260" y="250" as="geometry" />
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" value="[Key vault]&lt;div&gt;kvnascdev&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="1070" y="440" as="geometry" />
+          <mxGeometry height="60" width="160" x="1040" y="440" as="geometry" />
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-15" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-4" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-7" value="Connection&lt;div&gt;to get ClientId/Secret&amp;nbsp;&lt;/div&gt;&lt;div&gt;for NASCscamFormService&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -223,7 +223,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-20" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-9" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-10" value="Request Bearer Token">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
+          <mxGeometry height="50" relative="1" width="50" x="0.0434" y="-33" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="700" y="480" as="sourcePoint" />
             <mxPoint x="750" y="430" as="targetPoint" />
           </mxGeometry>
@@ -235,8 +236,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JA9ZjHIIV7naIb6fMaPW-22" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-9" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-13" value="Get ClientId/Secret&amp;nbsp;&lt;div&gt;for Enterprise API accessing Dataverse&lt;/div&gt;">
-          <mxGeometry height="50" relative="1" width="50" x="0.6095" y="2" as="geometry">
-            <mxPoint y="-1" as="offset" />
+          <mxGeometry height="50" relative="1" width="50" x="0.2752" y="4" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="990" y="360" as="sourcePoint" />
             <mxPoint x="1090" y="490" as="targetPoint" />
           </mxGeometry>
