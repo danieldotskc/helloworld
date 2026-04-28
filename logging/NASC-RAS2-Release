@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="2">
   <diagram name="Page-1" id="K7M_vuhDJTCmWrs3S6yB">
     <mxGraphModel dx="1426" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -156,6 +156,90 @@
         </mxCell>
         <mxCell id="V5OOPj2JkQi0wcNic1JM-15" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;fontStyle=3;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=1 2;" value="Production" vertex="1">
           <mxGeometry height="40" width="120" x="776" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Gar9F0YVzzwtQatQU0dW" name="New PDF API">
+    <mxGraphModel dx="1485" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="[Flow]&lt;div&gt;NASC - PDF - Report a Scam -iManage-integration - On Submit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="160" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;strokeWidth=3;" value="[Flow]&lt;div&gt;NASC - ScamForm Service - GetToken&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" value="Scamform Service API" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" value="[Key vault]&lt;div&gt;kvnascdev&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="160" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 100%;&quot;&gt;Environment Variable&lt;/h1&gt;&lt;p&gt;- API URL&lt;/p&gt;&lt;p&gt;- Dataverse Envirotment URL&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="290" x="790" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="[Flow]&lt;div&gt;NASC - PDF - Report a Scam -iManage-integration - On Submit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="900" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;dashed=1;strokeWidth=3;" value="[Flow]&lt;div&gt;NASC - Enterprise Service API - GetToken&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" value="Key vault&lt;div&gt;(acccmailmergedocdev-kv)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="670" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;strokeWidth=3;" value="Enterprise Doc Gen API" vertex="1">
+          <mxGeometry height="60" width="120" x="1260" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" value="[Key vault]&lt;div&gt;kvnascdev&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="1070" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-15" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-4" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-7" value="Connection&lt;div&gt;to get ClientId/Secret&amp;nbsp;&lt;/div&gt;&lt;div&gt;for NASCscamFormService&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-16" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-3" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-4" value="Request Bearer Token">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="380" as="sourcePoint" />
+            <mxPoint x="780" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-17" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-3" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="380" as="sourcePoint" />
+            <mxPoint x="780" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Current" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-19" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-10" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-11" value="Connection to get&amp;nbsp;&lt;div&gt;ClientID/Secret&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="480" as="sourcePoint" />
+            <mxPoint x="750" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-20" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-9" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-10" value="Request Bearer Token">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="480" as="sourcePoint" />
+            <mxPoint x="750" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-21" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-9" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="480" as="sourcePoint" />
+            <mxPoint x="750" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JA9ZjHIIV7naIb6fMaPW-22" edge="1" parent="1" source="JA9ZjHIIV7naIb6fMaPW-9" style="endArrow=classic;html=1;rounded=0;" target="JA9ZjHIIV7naIb6fMaPW-13" value="Get ClientId/Secret&amp;nbsp;&lt;div&gt;for Enterprise API accessing Dataverse&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.6095" y="2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <mxPoint x="990" y="360" as="sourcePoint" />
+            <mxPoint x="1090" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
