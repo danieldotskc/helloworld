@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page-1" id="5R2AMdUJlgugWLAjIMMc">
     <mxGraphModel dx="1485" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,100 @@
         </mxCell>
         <mxCell id="5BQIXbTW-MojiV2z3gnS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="4. Go To Report Cyber" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="n748ebim8_mwb5xCeo_L">
+    <mxGraphModel dx="1485" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-0" />
+        <mxCell id="863p3NKp_FNPI4Or3YEU-1" parent="863p3NKp_FNPI4Or3YEU-0" />
+        <mxCell id="863p3NKp_FNPI4Or3YEU-2" parent="863p3NKp_FNPI4Or3YEU-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="1.Introduction page&lt;div&gt;(Who are you reporting for?)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-3" parent="863p3NKp_FNPI4Or3YEU-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Myself / business&amp;nbsp;&lt;div&gt;or organisation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-4" parent="863p3NKp_FNPI4Or3YEU-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="2. Financial loss" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-5" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-3" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#3333FF,#7777FF);strokeWidth=2;" target="863p3NKp_FNPI4Or3YEU-4" value="Yes">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="390" />
+            </Array>
+            <mxPoint x="810" y="480" as="sourcePoint" />
+            <mxPoint x="860" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-6" parent="863p3NKp_FNPI4Or3YEU-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Financial loss&amp;nbsp;&lt;div&gt;=&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Yes&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-7" parent="863p3NKp_FNPI4Or3YEU-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="3. ReportCyber" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-8" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;" value="Yes">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="630" />
+            </Array>
+            <mxPoint x="520" y="630" as="sourcePoint" />
+            <mxPoint x="380" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-10" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;dashed=1;" target="863p3NKp_FNPI4Or3YEU-16" value="No">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="810" y="690" as="sourcePoint" />
+            <mxPoint x="860" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-11" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#3333FF;strokeWidth=2;" target="863p3NKp_FNPI4Or3YEU-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="810" y="690" as="sourcePoint" />
+            <mxPoint x="860" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-12" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;dashed=1;" target="863p3NKp_FNPI4Or3YEU-16" value="No">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="810" y="690" as="sourcePoint" />
+            <mxPoint x="720" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-13" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="863p3NKp_FNPI4Or3YEU-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="320" as="sourcePoint" />
+            <mxPoint x="1180" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-16" parent="863p3NKp_FNPI4Or3YEU-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="8.Payment details" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-26" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-7" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;dashed=1;" target="863p3NKp_FNPI4Or3YEU-16" value="Continue reporting to ScamWatch">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="750" />
+            </Array>
+            <mxPoint x="590" y="880" as="sourcePoint" />
+            <mxPoint x="780" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="863p3NKp_FNPI4Or3YEU-27" edge="1" parent="863p3NKp_FNPI4Or3YEU-1" source="863p3NKp_FNPI4Or3YEU-7" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;strokeWidth=2;" value="Go To Report Cyber">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="770" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7yI1z1zYqoh9QTOqoE6-0" parent="863p3NKp_FNPI4Or3YEU-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="In &#39;&lt;b&gt;Someone else&lt;/b&gt;&#39; or &#39;&lt;b&gt;Anonymous&lt;/b&gt;&#39; cases, no changes are needed" vertex="1">
+          <mxGeometry height="60" width="130" x="802" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="q7yI1z1zYqoh9QTOqoE6-1" parent="863p3NKp_FNPI4Or3YEU-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="In &#39;M&lt;b&gt;yself&#39;&lt;/b&gt;&amp;nbsp;or &#39;&lt;b&gt;Business or organisation&lt;/b&gt;&#39; cases,&amp;nbsp; if any Financial loss is reported, relevant section is to appear." vertex="1">
+          <mxGeometry height="60" width="270" x="500" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="q7yI1z1zYqoh9QTOqoE6-2" parent="863p3NKp_FNPI4Or3YEU-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="In &#39;M&lt;b&gt;yself&#39;&lt;/b&gt;&amp;nbsp;or &#39;&lt;b&gt;Business or organisation&lt;/b&gt;&#39; cases,&amp;nbsp; if no Financial loss is reported, what to do?" vertex="1">
+          <mxGeometry height="60" width="270" x="480" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
