@@ -385,7 +385,7 @@
         <mxCell id="S28ONpmgH3buitDhbjFg-37" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/identity/AAD_Licenses.svg;" value="ACCC user" vertex="1">
           <mxGeometry height="30.91" width="30" x="385" y="838" as="geometry" />
         </mxCell>
-        <mxCell id="S28ONpmgH3buitDhbjFg-41" edge="1" parent="1" source="S28ONpmgH3buitDhbjFg-28" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;fontSize=9;" target="S28ONpmgH3buitDhbjFg-20" value="Master data&lt;div&gt;(Impersonation)&lt;/div&gt;">
+        <mxCell id="S28ONpmgH3buitDhbjFg-41" edge="1" parent="1" source="S28ONpmgH3buitDhbjFg-28" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;fontSize=9;" target="S28ONpmgH3buitDhbjFg-20" value="sync&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Impersonation data&lt;/span&gt;&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="511.86" y="808.69" />
@@ -395,7 +395,7 @@
             <mxPoint x="717" y="638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S28ONpmgH3buitDhbjFg-42" edge="1" parent="1" source="S28ONpmgH3buitDhbjFg-20" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;fontSize=9;" target="S28ONpmgH3buitDhbjFg-28" value="Report a Scam&lt;div&gt;data&lt;/div&gt;">
+        <mxCell id="S28ONpmgH3buitDhbjFg-42" edge="1" parent="1" source="S28ONpmgH3buitDhbjFg-20" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;fontSize=9;" target="S28ONpmgH3buitDhbjFg-28" value="transfer&amp;nbsp;&lt;div&gt;Report a Scam&lt;div&gt;data&lt;/div&gt;&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="613.24" y="754.9" />
