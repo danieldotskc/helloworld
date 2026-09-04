@@ -431,6 +431,19 @@
         <mxCell id="8_p37nAmc9cHU_VVv-LS-39" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="stnascforms&amp;lt;env&amp;gt;" vertex="1">
           <mxGeometry height="40" width="50" x="508.22" y="970" as="geometry" />
         </mxCell>
+        <mxCell id="iEx2pcBb_P7xYJ23fn_g-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;opacity=60;" value="NASC - Forms2&lt;div&gt;(RAS 2 project space)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38.53" width="50" x="727" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="iEx2pcBb_P7xYJ23fn_g-2" edge="1" parent="1" source="iEx2pcBb_P7xYJ23fn_g-1" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=#FF3333;fontSize=9;strokeWidth=3;" target="8_p37nAmc9cHU_VVv-LS-21" value="Integration&lt;div&gt;(dev in progress)&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="580" />
+              <mxPoint x="440" y="580" />
+            </Array>
+            <mxPoint x="710" y="510" as="sourcePoint" />
+            <mxPoint x="540" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
