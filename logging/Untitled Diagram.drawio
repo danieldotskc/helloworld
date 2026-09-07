@@ -357,10 +357,10 @@
             <mxPoint x="615.98" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8_p37nAmc9cHU_VVv-LS-21" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;" value="ACCC - NASC&lt;div&gt;(Internal)&lt;/div&gt;" vertex="1">
+        <mxCell id="8_p37nAmc9cHU_VVv-LS-21" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;" value="ACCC - NASC&lt;div&gt;(Internal)&lt;/div&gt;&lt;div&gt;https://acccnasc.crm6...&lt;/div&gt;" vertex="1">
           <mxGeometry height="38.53" width="50" x="280" y="494" as="geometry" />
         </mxCell>
-        <mxCell id="8_p37nAmc9cHU_VVv-LS-22" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;" value="NASC - Forms" vertex="1">
+        <mxCell id="8_p37nAmc9cHU_VVv-LS-22" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;" value="NASC - Forms&lt;div&gt;https://nascforms.crm6...&lt;/div&gt;" vertex="1">
           <mxGeometry height="38.53" width="50" x="500" y="494" as="geometry" />
         </mxCell>
         <mxCell id="8_p37nAmc9cHU_VVv-LS-23" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;" value="ACCC - NASC&lt;div&gt;(Internal)&lt;/div&gt;" vertex="1">
@@ -388,7 +388,7 @@
           <mxGeometry height="50" width="50" x="562.84" y="701" as="geometry" />
         </mxCell>
         <mxCell id="8_p37nAmc9cHU_VVv-LS-30" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/identity/AAD_Licenses.svg;" value="ACCC user" vertex="1">
-          <mxGeometry height="30.91" width="30" x="225" y="573" as="geometry" />
+          <mxGeometry height="30.91" width="30" x="150" y="585" as="geometry" />
         </mxCell>
         <mxCell id="8_p37nAmc9cHU_VVv-LS-31" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/identity/AAD_Licenses.svg;" value="ACCC user" vertex="1">
           <mxGeometry height="30.91" width="30" x="230.98000000000002" y="901" as="geometry" />
