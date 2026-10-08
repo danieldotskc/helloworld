@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="Page-1" id="5R2AMdUJlgugWLAjIMMc">
     <mxGraphModel dx="1485" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -571,6 +571,29 @@
         </mxCell>
         <mxCell id="Naj7P8vZ0lw5cMN3eTX0-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=9;image=img/lib/azure2/power_platform/Dataverse.svg;opacity=20;" value="NASC - Forms2 - UAT&lt;div&gt;(RAS 2 project space)&lt;/div&gt;" vertex="1">
           <mxGeometry height="38.53" width="50" x="1500" y="323" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dNgHB1MRW4-2wPOmgK4l" name="Page-5">
+    <mxGraphModel dx="1485" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lp_3eiLROavwHrltDv5S-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerPages.svg;" value="&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: left; white-space: normal;&quot;&gt;&lt;b&gt;formspreprod.scamwatch.gov.au&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: left; white-space: normal;&quot;&gt;or&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: left; white-space: normal;&quot;&gt;&lt;b&gt;formspreprod.powerappsportals.com&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="68" x="720" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lp_3eiLROavwHrltDv5S-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="&lt;b&gt;stnascformspreprod&lt;/b&gt;&lt;div&gt;Azure Storage Account&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="65" x="400" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lp_3eiLROavwHrltDv5S-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="acccenterpriseservicesantivirusdevtest&lt;div&gt;Virus-scan service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="68" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lp_3eiLROavwHrltDv5S-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="&lt;b&gt;acccservicesmailmergedocumentpreprod&lt;/b&gt;&lt;div&gt;Enterprise Mail merge service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="68" x="402" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lp_3eiLROavwHrltDv5S-6" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/Dataverse.svg;" value="&lt;div&gt;&lt;b&gt;NASC - Forms - PREPROD&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Dataverse&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52.400000000000006" width="68" x="720" y="395.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
