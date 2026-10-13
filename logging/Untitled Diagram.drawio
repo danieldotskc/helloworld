@@ -647,7 +647,7 @@
         </mxCell>
         <mxCell id="K6ifvsqNmx3bsSxqTu6k-5" edge="1" parent="z7xR2-oJR14GWiPsfVwn-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="Read blob">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="920" y="360" as="sourcePoint" />
+            <mxPoint x="941" y="364" as="sourcePoint" />
             <mxPoint x="1000" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -659,7 +659,7 @@
         </mxCell>
         <mxCell id="K6ifvsqNmx3bsSxqTu6k-7" edge="1" parent="z7xR2-oJR14GWiPsfVwn-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="Read blob">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1150" y="360" as="sourcePoint" />
+            <mxPoint x="1132" y="362" as="sourcePoint" />
             <mxPoint x="1060" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
