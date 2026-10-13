@@ -603,7 +603,7 @@
       <root>
         <mxCell id="z7xR2-oJR14GWiPsfVwn-0" />
         <mxCell id="z7xR2-oJR14GWiPsfVwn-1" parent="z7xR2-oJR14GWiPsfVwn-0" />
-        <mxCell id="z7xR2-oJR14GWiPsfVwn-2" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerPages.svg;" value="&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: left; white-space: normal;&quot;&gt;&lt;b&gt;forms.scamwatch.gov.au&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="z7xR2-oJR14GWiPsfVwn-2" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerPages.svg;" value="&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: left; white-space: normal;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font&gt;https://forms.scamwatch.gov.au&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; text-align: left; white-space: normal;&quot;&gt;&lt;font&gt;hosted on &lt;b&gt;NASC - Forms&lt;/b&gt; environment&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="68" width="68" x="660" y="132" as="geometry" />
         </mxCell>
         <mxCell id="z7xR2-oJR14GWiPsfVwn-3" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="&lt;b&gt;stnascformsprod&lt;/b&gt;&lt;div&gt;Azure Storage Account&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -623,7 +623,7 @@
         </mxCell>
         <mxCell id="K6ifvsqNmx3bsSxqTu6k-1" edge="1" parent="z7xR2-oJR14GWiPsfVwn-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" value="Create/Update&amp;nbsp;&lt;div&gt;Report Scamform table&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="694" y="240" as="sourcePoint" />
+            <mxPoint x="694" y="266" as="sourcePoint" />
             <mxPoint x="694" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
