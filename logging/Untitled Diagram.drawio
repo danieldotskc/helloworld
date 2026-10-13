@@ -618,7 +618,7 @@
         <mxCell id="z7xR2-oJR14GWiPsfVwn-6" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/Dataverse.svg;" value="&lt;div&gt;&lt;b&gt;NASC - Forms&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Dataverse&lt;/div&gt;" vertex="1">
           <mxGeometry height="52.400000000000006" width="68" x="660" y="597.6" as="geometry" />
         </mxCell>
-        <mxCell id="K6ifvsqNmx3bsSxqTu6k-0" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerAutomate.svg;points=[[0.5,0,0],[0.5,1,0],[0.302,0.5,0],[1,0.5,0],[0.662,0.007,0],[0.662,0.993,0],[0.015,0.99,0],[0.015,0.01,0]];" value="Power Automates of&amp;nbsp;&lt;div&gt;&lt;b&gt;NASC -Forms&lt;/b&gt; environment&lt;/div&gt;" vertex="1">
+        <mxCell id="K6ifvsqNmx3bsSxqTu6k-0" parent="z7xR2-oJR14GWiPsfVwn-1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerAutomate.svg;points=[[0.5,0,0],[0.5,1,0],[0.302,0.5,0],[1,0.5,0],[0.662,0.007,0],[0.662,0.993,0],[0.015,0.99,0],[0.015,0.01,0]];" value="Power Automates of&amp;nbsp;&lt;div&gt;&lt;b&gt;NASC - Forms&lt;/b&gt; environment&lt;/div&gt;" vertex="1">
           <mxGeometry height="53.839999999999996" width="68" x="1000" y="597.6" as="geometry" />
         </mxCell>
         <mxCell id="K6ifvsqNmx3bsSxqTu6k-1" edge="1" parent="z7xR2-oJR14GWiPsfVwn-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" value="Create/Update&amp;nbsp;&lt;div&gt;Report Scamform table&lt;/div&gt;">
