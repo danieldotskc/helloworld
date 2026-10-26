@@ -116,6 +116,9 @@
         <mxCell id="zxzyRfEZXDEdkbjnW4io-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: rgb(255, 51, 51);&quot;&gt;all full stop(.) should be removed from email address.&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="720" y="380" as="geometry" />
         </mxCell>
+        <mxCell id="zxzyRfEZXDEdkbjnW4io-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;needs an encrypt/decrypt library&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="960" y="610" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -136,7 +139,7 @@
             <mxPoint x="840" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Create User record" vertex="1">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Return 401 response" vertex="1">
           <mxGeometry height="60" width="120" x="420" y="520" as="geometry" />
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-5" edge="1" parent="1" source="8ALLaO32FmDoW-sZmkaD-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8ALLaO32FmDoW-sZmkaD-4" value="No">
@@ -152,7 +155,7 @@
             <mxPoint x="900" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-7" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Has Role" vertex="1">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-7" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="User token match one-time token" vertex="1">
           <mxGeometry height="60" width="120" x="660" y="640" as="geometry" />
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-8" edge="1" parent="1" source="8ALLaO32FmDoW-sZmkaD-7" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8ALLaO32FmDoW-sZmkaD-10" value="No">
@@ -161,13 +164,13 @@
             <mxPoint x="760" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-9" edge="1" parent="1" source="8ALLaO32FmDoW-sZmkaD-7" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8ALLaO32FmDoW-sZmkaD-11" value="Yes">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-9" edge="1" parent="1" source="8ALLaO32FmDoW-sZmkaD-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lhyuv1eO7TaFLOq-Ogkj-2" value="Yes">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="840" y="810" as="sourcePoint" />
             <mxPoint x="1140" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Create response with&lt;div&gt;...&lt;/div&gt;" vertex="1">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Return 401 response" vertex="1">
           <mxGeometry height="60" width="120" x="420" y="640" as="geometry" />
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Generate&amp;nbsp;&lt;div&gt;one-time token&lt;/div&gt;" vertex="1">
@@ -191,7 +194,7 @@
         <mxCell id="8ALLaO32FmDoW-sZmkaD-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Start" vertex="1">
           <mxGeometry height="60" width="60" x="690" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-17" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Validate&amp;nbsp;&lt;div&gt;Google token&lt;/div&gt;" vertex="1">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-17" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Validate&amp;nbsp;&lt;div&gt;one-time token&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="660" y="160" as="geometry" />
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-18" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="token valid" vertex="1">
@@ -224,12 +227,6 @@
             <mxPoint x="880" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-24" edge="1" parent="1" source="8ALLaO32FmDoW-sZmkaD-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8ALLaO32FmDoW-sZmkaD-10" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="850" y="460" as="sourcePoint" />
-            <mxPoint x="900" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-25" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Create 200 response&amp;nbsp;&lt;div&gt;with one-time &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;token &amp;amp; role &amp;amp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="900" y="880" as="geometry" />
         </mxCell>
@@ -239,7 +236,7 @@
         <mxCell id="8ALLaO32FmDoW-sZmkaD-27" parent="8ALLaO32FmDoW-sZmkaD-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="one-time token" vertex="1">
           <mxGeometry height="30" width="220" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="8ALLaO32FmDoW-sZmkaD-28" parent="8ALLaO32FmDoW-sZmkaD-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
+        <mxCell id="8ALLaO32FmDoW-sZmkaD-28" parent="8ALLaO32FmDoW-sZmkaD-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="email address" vertex="1">
           <mxGeometry height="30" width="220" y="60" as="geometry" />
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-29" parent="8ALLaO32FmDoW-sZmkaD-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
@@ -256,6 +253,21 @@
         </mxCell>
         <mxCell id="8ALLaO32FmDoW-sZmkaD-33" parent="8ALLaO32FmDoW-sZmkaD-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
           <mxGeometry height="30" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lhyuv1eO7TaFLOq-Ogkj-2" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Verify user role against request" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="lhyuv1eO7TaFLOq-Ogkj-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="750" as="sourcePoint" />
+            <mxPoint x="1040" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCiRizX-lwyLL_Nad6_w-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: rgb(255, 51, 51);&quot;&gt;check token age as well&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="800" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="WCiRizX-lwyLL_Nad6_w-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: rgb(255, 51, 51);&quot;&gt;client app renders log-in screen after receiving 401 response&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="110" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
