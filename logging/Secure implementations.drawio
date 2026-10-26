@@ -348,6 +348,9 @@
         <mxCell id="ljI2HMOSsjIPcurrCaAG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;needs an encrypt/decrypt library (crypto module)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;https://stackoverflow.com/questions/78687009/how-to-encrypt-decrypt-with-node-js-crypto-module&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;https://www.youtube.com/watch?v=sKVNQMKZgQQ&amp;amp;t=46s&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="628" x="962" y="100" as="geometry" />
         </mxCell>
+        <mxCell id="ljI2HMOSsjIPcurrCaAG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="maybe with log and history" vertex="1">
+          <mxGeometry height="30" width="180" x="1210" y="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
