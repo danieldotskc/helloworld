@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="api/login" id="5m_a85LerXVDv2oPE7yI">
-    <mxGraphModel dx="1238" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pIBTvFPJVbxtctz9ymwZ" name="api/crud">
-    <mxGraphModel dx="1650" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,6 +344,9 @@
         </mxCell>
         <mxCell id="qzSPKIH2HJeO_160QnGX-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: rgb(255, 51, 51);&quot;&gt;client app renders error screen after receiving 403 response&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="290" x="152" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="ljI2HMOSsjIPcurrCaAG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;needs an encrypt/decrypt library (crypto module)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;https://stackoverflow.com/questions/78687009/how-to-encrypt-decrypt-with-node-js-crypto-module&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;https://www.youtube.com/watch?v=sKVNQMKZgQQ&amp;amp;t=46s&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="628" x="962" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
