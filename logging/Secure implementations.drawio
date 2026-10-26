@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="api/login" id="5m_a85LerXVDv2oPE7yI">
-    <mxGraphModel dx="2152" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,8 +120,8 @@
         <mxCell id="zxzyRfEZXDEdkbjnW4io-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b style=&quot;color: rgb(255, 51, 51);&quot;&gt;all full stop(.) should be removed from email address.&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="550" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="zxzyRfEZXDEdkbjnW4io-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;needs an encrypt/decrypt library&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="320" x="827" y="490" as="geometry" />
+        <mxCell id="zxzyRfEZXDEdkbjnW4io-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;needs an encrypt/decrypt library (crypto module)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;https://stackoverflow.com/questions/78687009/how-to-encrypt-decrypt-with-node-js-crypto-module&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="827" y="490" as="geometry" />
         </mxCell>
         <mxCell id="gZzWEIAG1N1zBb-HbT5z-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Response" vertex="1">
           <mxGeometry height="120" width="220" x="950" y="690" as="geometry" />
