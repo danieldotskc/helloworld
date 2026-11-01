@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="api/login" id="5m_a85LerXVDv2oPE7yI">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -523,6 +523,68 @@
         <mxCell id="1" parent="0" />
         <mxCell id="aALee6wH6qSTKZctD69a-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Pagination&lt;div&gt;Sorting&lt;/div&gt;&lt;div&gt;Searching&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- create records and see&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- whether mongoid is returned and&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- whether record is found by id&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="220" width="450" x="40" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zPP8v4M5dsfjfrIors94" name="Page-6">
+    <mxGraphModel dx="1238" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Clinic" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order item" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-6" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="1" vertex="1">
+          <mxGeometry height="10" width="10" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="n" vertex="1">
+          <mxGeometry height="10" width="10" x="510" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-9" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="270" as="sourcePoint" />
+            <mxPoint x="530" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-10" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="250" as="sourcePoint" />
+            <mxPoint x="570" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="320" as="sourcePoint" />
+            <mxPoint x="580" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-12" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="670" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Clinic&lt;div&gt;Order&lt;/div&gt;&lt;div&gt;Order item&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Select Product in Create/Edit form&lt;br&gt;&lt;/div&gt;&lt;div&gt;Product&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="360" x="710" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
