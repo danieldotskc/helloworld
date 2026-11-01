@@ -533,58 +533,67 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Clinic" vertex="1">
-          <mxGeometry height="60" width="120" x="280" y="180" as="geometry" />
+          <mxGeometry height="60" width="120" x="480" y="40" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Customer" vertex="1">
-          <mxGeometry height="60" width="120" x="280" y="320" as="geometry" />
+          <mxGeometry height="60" width="120" x="480" y="180" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order" vertex="1">
-          <mxGeometry height="60" width="120" x="520" y="180" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="40" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="320" as="geometry" />
+          <mxGeometry height="60" width="120" x="960" y="180" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order item" vertex="1">
-          <mxGeometry height="60" width="120" x="520" y="320" as="geometry" />
+          <mxGeometry height="60" width="120" x="720" y="180" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-6" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="730" y="410" as="sourcePoint" />
-            <mxPoint x="780" y="360" as="targetPoint" />
+            <mxPoint x="930" y="270" as="sourcePoint" />
+            <mxPoint x="980" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="1" vertex="1">
-          <mxGeometry height="10" width="10" x="400" y="210" as="geometry" />
+          <mxGeometry height="10" width="10" x="600" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="n" vertex="1">
-          <mxGeometry height="10" width="10" x="510" y="210" as="geometry" />
+          <mxGeometry height="10" width="10" x="710" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-9" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="480" y="270" as="sourcePoint" />
-            <mxPoint x="530" y="220" as="targetPoint" />
+            <mxPoint x="680" y="130" as="sourcePoint" />
+            <mxPoint x="730" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-10" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="450" y="250" as="sourcePoint" />
-            <mxPoint x="570" y="250" as="targetPoint" />
+            <mxPoint x="650" y="110" as="sourcePoint" />
+            <mxPoint x="770" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="580" y="320" as="sourcePoint" />
-            <mxPoint x="580" y="240" as="targetPoint" />
+            <mxPoint x="780" y="180" as="sourcePoint" />
+            <mxPoint x="780" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ybVhBhCCKKQ2QHzGa-0M-12" edge="1" parent="1" source="ybVhBhCCKKQ2QHzGa-0M-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="ybVhBhCCKKQ2QHzGa-0M-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="670" y="340" as="sourcePoint" />
-            <mxPoint x="670" y="260" as="targetPoint" />
+            <mxPoint x="870" y="200" as="sourcePoint" />
+            <mxPoint x="870" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Clinic&lt;div&gt;Order&lt;/div&gt;&lt;div&gt;Order item&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Select Product in Create/Edit form&lt;br&gt;&lt;/div&gt;&lt;div&gt;Product&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="360" x="710" y="80" as="geometry" />
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontColor=#333333;" value="Clinic&lt;div&gt;Order&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Must have parent Clinic (or Customer) record&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Child Order items&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- List of children records&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Add/Edit/Delete child record&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Option 1: with modal&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Pros&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;easy for cancel scenario&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Cons&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- increase development complexity&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- mobile view (cannot stop using it, so it&#39;s better to consider it is to be used in mobile browser)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Option 2: without modal&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Pros&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- easy for cancel scenario&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Cons&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;- easy for cancel scenario&lt;br&gt;&lt;/div&gt;&lt;div&gt;Order item&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Must have parent Order record&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Select Product in Create/Edit form&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Search Product&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Copy of product detail&lt;br&gt;&lt;/div&gt;&lt;div&gt;Product&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- CRUD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="400" width="360" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Memo&lt;div&gt;(Note)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontColor=#333333;" value="&lt;div&gt;[Current]&lt;/div&gt;Shipping Sheet&lt;div&gt;- 주문업자 (MEDSTAR)&lt;/div&gt;&lt;div&gt;- 주문번호 (MK200529-01) - MK&lt;/div&gt;&lt;div&gt;- 클리닉 이름&lt;/div&gt;&lt;div&gt;- 청구명 (?)&lt;/div&gt;&lt;div&gt;- 주문자 - 이름 전화번호, 팩스, ...&lt;/div&gt;&lt;div&gt;- 작성자&lt;/div&gt;&lt;div&gt;- 작성일&lt;/div&gt;&lt;div&gt;- 주문일&lt;/div&gt;&lt;div&gt;- 청구일&lt;/div&gt;&lt;div&gt;- 발송??일&lt;/div&gt;&lt;div&gt;- CODE ?&lt;/div&gt;&lt;div&gt;- 입금예정일&lt;/div&gt;&lt;div&gt;- 클리닉의 입금일&lt;/div&gt;&lt;div&gt;- 클리닉 납품완료일&lt;/div&gt;&lt;div&gt;- 캔슬/샘플&lt;/div&gt;&lt;div&gt;- 자유작성&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 발송방법: Segawa, EMS, Fedex, DHL, Airway&lt;/div&gt;&lt;div&gt;- AWE (Tracking number)&lt;/div&gt;&lt;div&gt;- 발송지&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &#39;Input &amp;amp; Add Price&#39; button&lt;/div&gt;&lt;div&gt;- &#39;Shipment Check&#39; button&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Product list with 갯수, 단가, 소비세, 합계, ?&lt;/div&gt;&lt;div&gt;- 총 갯수, 합계&lt;/div&gt;&lt;div&gt;- 오더해수&lt;/div&gt;&lt;div&gt;- 메모&lt;/div&gt;" vertex="1">
+          <mxGeometry height="450" width="360" x="80" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ybVhBhCCKKQ2QHzGa-0M-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontColor=#333333;" value="&lt;div&gt;[Current]&lt;/div&gt;클리닉 Data-English&lt;div&gt;- 클리닉 ID&lt;/div&gt;&lt;div&gt;- 병원명&lt;/div&gt;&lt;div&gt;- 분원&lt;/div&gt;&lt;div&gt;- 청구명&lt;/div&gt;&lt;div&gt;- 주소&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 우편번호&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 지방&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 도도부현&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 시정촌&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 건물이름...&lt;/div&gt;&lt;div&gt;- 웹사이트 주소&lt;/div&gt;&lt;div&gt;- 휴대전화&lt;/div&gt;&lt;div&gt;- 전화&lt;/div&gt;&lt;div&gt;- 팩스&lt;/div&gt;&lt;div&gt;- 선생님 이름&lt;/div&gt;&lt;div&gt;- 당당&lt;/div&gt;&lt;div&gt;-&amp;nbsp; Email&lt;/div&gt;&lt;div&gt;- 영어디테일&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 병원명&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 주소 (3줄)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 의사 이름&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 전화/팩스&lt;/div&gt;" vertex="1">
+          <mxGeometry height="450" width="230" x="450" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
