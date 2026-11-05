@@ -662,7 +662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j14z5Z7hb6PdvwWx5O0d" name="Page-7">
-    <mxGraphModel dx="858" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1625" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -797,6 +797,18 @@
         </mxCell>
         <mxCell id="O23eA1NmljdjW8YYlX-R-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="OrderForm" vertex="1">
           <mxGeometry height="80" width="80" x="680" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPZDoqxtvMMqnnn-qffO-1" edge="1" parent="1" source="O23eA1NmljdjW8YYlX-R-11" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="O23eA1NmljdjW8YYlX-R-26" value="Create">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2499" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="490" />
+            </Array>
+            <mxPoint x="910" y="490" as="sourcePoint" />
+            <mxPoint x="960" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPZDoqxtvMMqnnn-qffO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="When Add new Order button, get clinic&#39;s detail and populate - address, contact detail..." vertex="1">
+          <mxGeometry height="70" width="160" x="880" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
